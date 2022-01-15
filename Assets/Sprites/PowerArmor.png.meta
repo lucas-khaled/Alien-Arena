@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: 095cf7db220f3e3439beec4ddfbd4ed5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5220931202408406580
+    second: PowerBlue1_LeftArm
+  - first:
+      213: -2842498807277390652
+    second: PowerBlue1_Head
+  - first:
+      213: 4633860365520396421
+    second: PowerBlue1_RightArm
+  - first:
+      213: -6924325336920841416
+    second: PowerBlue2_LeftArm
+  - first:
+      213: -330296019049346645
+    second: PowerBlue2_Head
+  - first:
+      213: 7580421241916619036
+    second: PowerBlue2_RightArm
+  - first:
+      213: -6012509335781928127
+    second: PowerBlue3_LeftArm
+  - first:
+      213: 2078000706350868511
+    second: PowerBlue3_Head
+  - first:
+      213: -6012006713288727423
+    second: PowerBlue3_RightArm
+  - first:
+      213: -2983903174238736101
+    second: PowerBlue1_Torso
+  - first:
+      213: 2128261253765806610
+    second: PowerBlue2_Torso
+  - first:
+      213: -2801396271984500694
+    second: PowerBlue3_Torso
+  - first:
+      213: -8686097182617076396
+    second: PowerRed1_LeftArm
+  - first:
+      213: -8403777234524433041
+    second: PowerRed1_Head
+  - first:
+      213: -1477026477943253133
+    second: PowerRed1_RightArm
+  - first:
+      213: -4428409952330371715
+    second: PowerRed2_LeftArm
+  - first:
+      213: 916187122262771454
+    second: PowerRed2_Head
+  - first:
+      213: 3223932773287427244
+    second: PowerRed2_RightArm
+  - first:
+      213: -768013581427154432
+    second: PowerRed3_LeftArm
+  - first:
+      213: -8311094870976962748
+    second: PowerRed3_Head
+  - first:
+      213: 1413775199746434272
+    second: PowerRed3_RightArm
+  - first:
+      213: -2428677546741587304
+    second: PowerRed1_Torso
+  - first:
+      213: 6012221482797194850
+    second: PowerRed2_Torso
+  - first:
+      213: -8667283008350220603
+    second: PowerRed3_Torso
+  - first:
+      213: 8287959198069271246
+    second: PowerGreen1_LeftArm
+  - first:
+      213: -5300657375094141046
+    second: PowerGreen1_Head
+  - first:
+      213: -2329902214205388233
+    second: PowerGreen1_RightArm
+  - first:
+      213: 8760679838087309007
+    second: PowerGreen2_LeftArm
+  - first:
+      213: -4547332663464644853
+    second: PowerGreen2_Head
+  - first:
+      213: 57528921939915695
+    second: PowerGreen2_RightArm
+  - first:
+      213: -3173240039924635736
+    second: PowerGreen3_LeftArm
+  - first:
+      213: -7583792546170752489
+    second: PowerGreen3_Head
+  - first:
+      213: 8108851715569891056
+    second: PowerGreen3_RightArm
+  - first:
+      213: 817431401284225396
+    second: PowerGreen1_Torso
+  - first:
+      213: -3695319403034967808
+    second: PowerGreen2_Torso
+  - first:
+      213: -5334242319575045960
+    second: PowerGreen3_Torso
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PowerBlue1_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1555
+        width: 109
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1a1bbabb68b87b0800000000000000
+      internalID: -5220931202408406580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue1_Head
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1734
+        width: 96
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c472cd156a6d88d0800000000000000
+      internalID: -2842498807277390652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue1_RightArm
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1555
+        width: 109
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ea918377ce4040800000000000000
+      internalID: 4633860365520396421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue2_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1537
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833a89feacad7ef90800000000000000
+      internalID: -6924325336920841416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue2_Head
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1724
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba986d9458d8a6bf0800000000000000
+      internalID: -330296019049346645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue2_RightArm
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1537
+        width: 116
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19f34ce4f0133960800000000000000
+      internalID: 7580421241916619036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue3_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1547
+        width: 102
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1439fff5d964f8ca0800000000000000
+      internalID: -6012509335781928127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue3_Head
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 1693
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18ed09f1aa86dc10800000000000000
+      internalID: 2078000706350868511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue3_RightArm
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1547
+        width: 102
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184692b4fbf019ca0800000000000000
+      internalID: -6012006713288727423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue1_Torso
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1490
+        width: 248
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11f6575fdb0796d0800000000000000
+      internalID: -2983903174238736101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue2_Torso
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1499
+        width: 292
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a30f3955a198d10800000000000000
+      internalID: 2128261253765806610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerBlue3_Torso
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1488
+        width: 282
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20a24ddee07f19d0800000000000000
+      internalID: -2801396271984500694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed1_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 898
+        width: 120
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d769122a8c47780800000000000000
+      internalID: -8686097182617076396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed1_Head
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1103
+        width: 95
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6518ac5129cf5b80800000000000000
+      internalID: -8403777234524433041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed1_RightArm
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 898
+        width: 120
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37798527e3c808be0800000000000000
+      internalID: -1477026477943253133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed2_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 902
+        width: 106
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d2b8f6c902b82c0800000000000000
+      internalID: -4428409952330371715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed2_Head
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1078
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef682426553f6bc00800000000000000
+      internalID: 916187122262771454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed2_RightArm
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 902
+        width: 106
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac7983b6c5bdbc20800000000000000
+      internalID: 3223932773287427244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed3_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 908
+        width: 110
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002eb5087b77755f0800000000000000
+      internalID: -768013581427154432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed3_Head
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1051
+        width: 94
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fd8d8bf3f09ac80800000000000000
+      internalID: -8311094870976962748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed3_RightArm
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 908
+        width: 110
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4a42dbd0dbe9310800000000000000
+      internalID: 1413775199746434272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed1_Torso
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 840
+        width: 249
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892208093aa9b4ed0800000000000000
+      internalID: -2428677546741587304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed2_Torso
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 839
+        width: 242
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e5911a593bf6350800000000000000
+      internalID: 6012221482797194850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerRed3_Torso
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 836
+        width: 272
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce818f6600a7b780800000000000000
+      internalID: -8667283008350220603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen1_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 337
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaa9d9aafeb40370800000000000000
+      internalID: 8287959198069271246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen1_Head
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 515
+        width: 96
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f857193384076b0800000000000000
+      internalID: -5300657375094141046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen1_RightArm
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 337
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a44e0d7468aafd0800000000000000
+      internalID: -2329902214205388233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen2_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 324
+        width: 109
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6ee1c85ef249970800000000000000
+      internalID: 8760679838087309007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen2_Head
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 507
+        width: 94
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fa8ae0901a4e0c0800000000000000
+      internalID: -4547332663464644853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen2_RightArm
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 324
+        width: 109
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa33a8cef326cc000800000000000000
+      internalID: 57528921939915695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen3_LeftArm
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 302
+        width: 102
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7ee390ff266f3d0800000000000000
+      internalID: -3173240039924635736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen3_Head
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 509
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712bc332cd4f0c690800000000000000
+      internalID: -7583792546170752489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen3_RightArm
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 302
+        width: 102
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f63cda3cad688070800000000000000
+      internalID: 8108851715569891056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen1_Torso
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 278
+        width: 242
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479cbcd4789185b00800000000000000
+      internalID: 817431401284225396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen2_Torso
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 277
+        width: 292
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0010e72e49697bcc0800000000000000
+      internalID: -3695319403034967808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PowerGreen3_Torso
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 277
+        width: 272
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8afd35fd6f8f5b0800000000000000
+      internalID: -5334242319575045960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
