@@ -1,26 +1,17 @@
-﻿using UnityEngine;
+﻿using AlienArena.Inventory;
+using UnityEngine;
 
 namespace AlienArena.Itens
 {
-    [CreateAssetMenu(fileName = "Armor", menuName = "AlienArena/Itens/Armor")]
     public class Armor : Item
     {
-        public ArmorType type;
         public float life;
         public float velocity;
         public float energy;
         
-        public override void HandleEquip(SpriteRenderer renderer)
+        public override void HandleEquip(EquipSlot slot)
         {
-            Base_HandleEquip(renderer);
+            Base_HandleEquip(slot);
         }
-    }
-
-    public enum ArmorType
-    {
-        Head,
-        Torso,
-        RightArm,
-        LeftArm
     }
 }

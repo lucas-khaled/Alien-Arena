@@ -1,17 +1,18 @@
 ﻿using AlienArena;
+using AlienArena.Inventory;
 using UnityEngine;
 
 namespace AlienArena.Itens
 {
-    [CreateAssetMenu(fileName = "Weapon", menuName = "AlienArena/Itens/Weapon")]
+    [CreateAssetMenu(fileName = "Weapon", menuName = "Itens/Weapon")]
     public class Weapon : Item
     {
         public float damage;
         public Projectile projectile;
         
-        public override void HandleEquip(SpriteRenderer renderer)
+        public override void HandleEquip(EquipSlot slot)
         {
-            Base_HandleEquip(renderer);
+            Base_HandleEquip(slot);
         }
     }
 }

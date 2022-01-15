@@ -1,3 +1,4 @@
+using AlienArena.Inventory;
 using UnityEngine;
 
 namespace AlienArena.Itens
@@ -7,12 +8,13 @@ namespace AlienArena.Itens
         public Sprite sprite;
         public Material material;
     
-        public abstract void HandleEquip(SpriteRenderer renderer);
+        public abstract void HandleEquip(EquipSlot slot);
 
-        protected void Base_HandleEquip(SpriteRenderer renderer)
+        protected void Base_HandleEquip(EquipSlot slot)
         {
-            renderer.sprite = sprite;
-            renderer.material = material;
+            slot.item = this;
+            slot.spriteRenderer.sprite = sprite;
+            slot.spriteRenderer.material = material;
         } 
     }
 }
