@@ -8,6 +8,7 @@ namespace AlienArena.Itens
     public class Weapon : Item
     {
         public float damage;
+        public float projectQuantity;
         public Projectile projectile;
         
         public override void HandleEquip(EquipSlot slot)

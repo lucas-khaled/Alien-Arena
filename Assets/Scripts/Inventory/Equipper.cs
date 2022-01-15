@@ -10,8 +10,25 @@ namespace AlienArena.Inventory
     public class Equipper : MonoBehaviour
     {
         [SerializeField] private List<EquipSlot> slots;
+
+        [SerializeField] private Item[] testItems;
+        private int testIndex = -1;
         
         private bool _relationFilled = false;
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                testIndex = (testIndex < testItems.Length - 1) ? testIndex + 1 : 0;
+                Equip(testItems[testIndex]);
+            }
+        }
+
+        public EquipSlot GetSlotByType(Type type)
+        {
+            return slots.Find(x => x.type == type);
+        }
 
         public Item Equip(Item item)
         {
@@ -63,7 +80,7 @@ namespace AlienArena.Inventory
     public class EquipSlot
     {
         public SpriteRenderer spriteRenderer;
-        public Item item { get; set; }
+        public Item item;
         public Type type { get; set; }
         
     }

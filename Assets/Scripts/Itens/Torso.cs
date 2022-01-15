@@ -2,7 +2,7 @@
 
 namespace AlienArena.Itens
 {
-    [CreateAssetMenu(fileName = "Armor", menuName = "Itens/Armor/Torso")]
+    [CreateAssetMenu(fileName = "Torso", menuName = "Itens/Armor/Torso")]
     public class Torso : Armor
     {
         
