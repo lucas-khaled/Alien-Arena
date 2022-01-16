@@ -92,6 +92,9 @@ namespace AlienArena
         private void Start()
         {
             PlayerRef = FindObjectOfType<Player.Player>();
+            PlayerRef.onChangeAtrribute += PlayerAtributteChange;
+            
+            coinsText.SetText("Coins: "+PlayerRef.Coins);
         }
 
         private void Update()
@@ -100,6 +103,12 @@ namespace AlienArena
             {
                 OpenInventory();
             }
+        }
+
+        private void PlayerAtributteChange(float value, string name)
+        {
+            if (name == "Coins")
+                coinsText.SetText("Coins: "+value);
         }
     }
 }
