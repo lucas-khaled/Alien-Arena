@@ -18,7 +18,7 @@ namespace AlienArena.Itens
         public virtual void HandlePlayerStats(Player.Player player)
         {
             player.AddLife(life);
-            player.AddEnergy(energy);
+            player.AddMaxEnergy(energy);
             player.AddVelocity(velocity);
         }
     }

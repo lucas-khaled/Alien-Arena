@@ -8,15 +8,30 @@ namespace AlienArena.Player
     public class Player : MonoBehaviour
     {
         public int Coins { get; private set; }
-        public float Life { get; private set; }
+        public float MaxLife { get; private set; }
+        public float MaxEnergy { get; private set; }
         public float Velocity { get; private set; }
-        public float Energy { get; private set; }
+        
+        private float _energy;
+        private float _life;
 
         public Action<float, string> onChangeAtrribute;
 
         private void Start()
         {
             Inventory.Inventory.instance.onEquip += ChangeEquipStats;
+        }
+
+        public void UseEnergy(float usage)
+        {
+            _energy -= usage;
+            onChangeAtrribute?.Invoke(_energy,"Energy");
+        }
+
+        public void Damage(float damage)
+        {
+            _life = Mathf.Clamp(_life - damage, 0, MaxLife);
+            onChangeAtrribute?.Invoke(_life, "Life");
         }
 
         public void AddCoins(int coins)
@@ -27,20 +42,22 @@ namespace AlienArena.Player
 
         public void AddLife(float life)
         {
-            Life += life;
-            onChangeAtrribute?.Invoke(Life, "Life");
+            MaxLife += life;
+            Damage(-life);
+            onChangeAtrribute?.Invoke(MaxLife, "MaxLife");
         }
 
         public void AddVelocity(float velocity)
         {
             Velocity += velocity;
-            onChangeAtrribute?.Invoke(Life, "Velocity");
+            onChangeAtrribute?.Invoke(MaxLife, "Velocity");
         }
 
-        public void AddEnergy(float energy)
+        public void AddMaxEnergy(float energy)
         {
-            Energy += energy;
-            onChangeAtrribute?.Invoke(Life, "Energy");
+            MaxEnergy += energy;
+            UseEnergy(-energy);
+            onChangeAtrribute?.Invoke(MaxLife, "MaxEnergy");
         }
 
         public void ChangeEquipStats(Item addedItem, Item removedItem)
