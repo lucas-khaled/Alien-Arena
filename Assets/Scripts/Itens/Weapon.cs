@@ -1,6 +1,7 @@
 ﻿using AlienArena;
 using AlienArena.Inventory;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace AlienArena.Itens
 {
@@ -9,7 +10,7 @@ namespace AlienArena.Itens
     {
         [Header("Weapon Data")]
         public float damage;
-        public float projectileQuantity = 1;
+        [FormerlySerializedAs("projectileQuantity")] public float bullets = 1;
         public Projectile projectile;
         
         public override void HandleEquip(EquipSlot slot)

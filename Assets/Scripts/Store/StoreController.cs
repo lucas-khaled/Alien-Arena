@@ -10,29 +10,21 @@ namespace AlienArena.Store
     {
         [SerializeField] private float interactionRange = 1f;
         [SerializeField] private Store store;
+        
 
-        public Action<Store> onStoreOpen;
-        
-        private Player.Player _playerRef;
-        
         private void Start()
         {
-            _playerRef = FindObjectOfType<Player.Player>();
-        }
-
-        private void Update()
-        {
-            CheckInteraction();   
+            InvokeRepeating("CheckInteraction", 0, 0.2f);   
         }
 
         private void CheckInteraction()
         {
-            float distance = Vector2.Distance(transform.position, _playerRef.transform.position);
-            if (distance < interactionRange)
+            RaycastHit hit;
+            if (Physics.SphereCast(transform.position, interactionRange, Vector3.back, out hit, LayerMask.GetMask("Player")));
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    onStoreOpen?.Invoke(store);
+                    UIController.instance.OpenStore(store);
                 }
             }
         }

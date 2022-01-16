@@ -13,12 +13,19 @@ namespace AlienArena.Store
         {
             itensForSale.Remove(item);
             player.AddCoins(-item.price);
+            Inventory.Inventory.instance.AddItem(item);
         }
 
         public void SellItem(Item item, Player.Player player)
         {
             itensForSale.Add(item);
             player.AddCoins(item.price);
+            Inventory.Inventory.instance.RemoveItem(item);
+        }
+
+        public List<Item> GetItensForSale()
+        {
+            return itensForSale;
         }
     }
 }

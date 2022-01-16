@@ -15,12 +15,14 @@ namespace AlienArena.Inventory
         [SerializeField] private TMP_Text itemNameText;
 
         public Item StoredItem { get; private set; }
-        private Button _button;
+        private Button _button => GetComponent<Button>();
 
+        
         public void SetItem(Item item, Action<ItemSlot> callback = null)
         {
             StoredItem = item;
             itemImage.sprite = item.sprite;
+            itemImage.preserveAspect = true;
             itemNameText.text = item.name;
             
             _button.onClick.AddListener( delegate { callback?.Invoke(this); });

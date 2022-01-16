@@ -32,13 +32,32 @@ namespace AlienArena.Player
             if(_fireTime<fireRate) return;
 
             Weapon weapon = _equipper.GetSlotByType(typeof(Weapon)).item as Weapon;
+            
+            if(weapon == null) return;
 
-            for (int i = 0; i < weapon.projectileQuantity; i++)
+            if (weapon.bullets <= 1)
             {
-                Projectile projectile = Instantiate(weapon.projectile, fireTransform.position, fireTransform.rotation);
-                projectile.damage = weapon.damage;
+                InstantiateBullet(weapon, fireTransform.position);
+                return;
+            }
+
+            float bulletRange = 0.5f;
+            Vector2 leftRangePoint = fireTransform.position - transform.right * bulletRange;
+            Vector2 rightRangePoint = fireTransform.position + transform.right * bulletRange;
+            Vector2 rangeVector = rightRangePoint - leftRangePoint; 
+            
+            for (int i = 0; i < weapon.bullets; i++)
+            {
+                Vector2 position = leftRangePoint + rangeVector * i / (weapon.bullets - 1);
+                InstantiateBullet(weapon,position);
             }
             
+        }
+
+        private void InstantiateBullet(Weapon weapon, Vector3 position)
+        {
+            Projectile projectile = Instantiate(weapon.projectile, position, fireTransform.rotation);
+            projectile.damage = weapon.damage;
         }
     }
 }

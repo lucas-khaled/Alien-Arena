@@ -25,7 +25,7 @@ namespace AlienArena.Itens
 
         private void Start()
         {
-            Destroy(gameObject,10);
+            Destroy(gameObject,5);
         }
 
         private void FixedUpdate()
