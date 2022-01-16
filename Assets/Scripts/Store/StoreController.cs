@@ -24,12 +24,12 @@ namespace AlienArena.Store
         {
             if (Vector3.Distance(_player.transform.position, transform.position) < interactionRange)
             {
-                UIController.instance.SetInteractionActive(true);
+                GamePauseUIController.instance.SetInteractionActive(true);
                 _inRange = true;
             }
             else
             {
-                UIController.instance.SetInteractionActive(false);
+                GamePauseUIController.instance.SetInteractionActive(false);
                 _inRange = false;
             }
         }
@@ -37,7 +37,11 @@ namespace AlienArena.Store
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.E) && _inRange)
-                UIController.instance.OpenStore(store);
+            {
+                GamePauseUIController.instance.OpenStore(store);
+                GamePauseUIController.instance.SetInteractionActive(false);
+            }
+                
         }
     }
 }

@@ -15,7 +15,7 @@ namespace AlienArena.UI
         
         private void Start()
         {
-            player = UIController.instance.PlayerRef;
+            player = GamePauseUIController.instance.PlayerRef;
             player.onChangeAtrribute += OnPlayerAttributeChange;
         }
 

@@ -19,7 +19,7 @@ namespace AlienArena.Inventory
         private ItemSlot _selectedSlot;
         
         private Inventory _inventory;
-        private UIController _controller;
+        private GamePauseUIController _controller;
         private Store.Store _store;
 
         public void SellItem()
@@ -27,17 +27,21 @@ namespace AlienArena.Inventory
             if (_selectedSlot == null) return;
             
             _store.SellItem(_selectedSlot.StoredItem, _inventory.ActualPlayer);
+            _selectedSlot = null;
+            descriptionUI.ClearDescription();
         }
         
         public void Equip()
         {
             _inventory.Equip(_selectedSlot.StoredItem);
+            _selectedSlot = null;
+            descriptionUI.ClearDescription();
         }
         
         private void Start()
         {
             _inventory = Inventory.instance;
-            _controller = UIController.instance;
+            _controller = GamePauseUIController.instance;
             _inventory.onInventoryChanged += InventoryChanged;
             _controller.onInventoryOpen += InventoryOpened;
             FillInventoryUI();

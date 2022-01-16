@@ -1,23 +1,32 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace AlienArena
 {
-    public class UIController : MonoBehaviour
+    public class GamePauseUIController : MonoBehaviour
     {
-        public static UIController instance;
+        public static GamePauseUIController instance;
 
+        [Header("UI's")]
+        [SerializeField] private ToggleGroup switchToggleGroup;
+        [SerializeField] private TMP_Text coinsText;
+        
+        [Header("GameObjects")]
         [SerializeField] private GameObject pauseMenuPanel;
         [SerializeField] private GameObject inventoryPanel;
         [SerializeField] private GameObject storePanel;
         [SerializeField] private GameObject interactionPanel;
-        
+
         public Action<Store.Store> onInventoryOpen; 
         public Action<Store.Store, Player.Player> onStoreOpen;
         
-        private Player.Player _playerRef;
+        public Player.Player PlayerRef { get; private set; }
+
+        private Store.Store _openedStore;
 
         public void SetInteractionActive(bool active)
         {
@@ -36,21 +45,37 @@ namespace AlienArena
 
         public void OpenStore(Store.Store store)
         {
-            onStoreOpen?.Invoke(store, _playerRef);
+            onStoreOpen?.Invoke(store, PlayerRef);
             storePanel.SetActive(true);
             inventoryPanel.SetActive(false);
+            switchToggleGroup.gameObject.SetActive(true);
             
             Time.timeScale = 0;
             pauseMenuPanel.SetActive(true);
+
+            _openedStore = store;
         }
 
         public void QuitPause()
         {
             storePanel.SetActive(false);
             inventoryPanel.SetActive(false);
+            switchToggleGroup.gameObject.SetActive(false);
             
             Time.timeScale = 1;
             pauseMenuPanel.SetActive(false);
+
+            _openedStore = null;
+        }
+
+        public void ToggleSwitched(bool active)
+        {
+            if(!active) return;
+            
+            if (switchToggleGroup.GetFirstActiveToggle().name.Contains("Store"))
+                OpenStore(_openedStore);
+            else
+                OpenInventory(_openedStore);
         }
         
         private void Awake()
@@ -66,7 +91,7 @@ namespace AlienArena
 
         private void Start()
         {
-            _playerRef = FindObjectOfType<Player.Player>();
+            PlayerRef = FindObjectOfType<Player.Player>();
         }
 
         private void Update()

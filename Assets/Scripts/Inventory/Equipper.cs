@@ -64,7 +64,6 @@ namespace AlienArena.Inventory
         {
             foreach(var type in Assembly.GetAssembly(typeof(Item)).GetTypes().Where(x => x.IsClass && !x.IsAbstract && x.IsSubclassOf(typeof(Item))))
             {
-                Debug.Log(type.Name);
                 EquipSlot slot = slots.Find(x => x.spriteRenderer.name.Contains(type.Name));
                 
                 if(slot != null)

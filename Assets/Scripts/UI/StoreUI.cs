@@ -28,10 +28,13 @@ namespace AlienArena.Store
             if(_selectedItemSlot == null) return;
             
             _openedStore.BuyItem(_selectedItemSlot.StoredItem, _actualPlayer);
+            _selectedItemSlot = null;
+            descriptionUI.ClearDescription();
         }
 
         public void OpenStore(Store store, Player.Player player)
         {
+            ClearStore();
             foreach (var item in store.GetItensForSale())
             {
                 AddedItem(item);
@@ -78,10 +81,18 @@ namespace AlienArena.Store
             else
                 RemovedItem(item);
         }
+
+        private void ClearStore()
+        {
+            foreach (var item in _itemSlotList)
+                Destroy(item.gameObject);
+            
+            _itemSlotList.Clear();
+        }
         
         private void Start()
         {
-            UIController.instance.onStoreOpen += OpenStore;
+            GamePauseUIController.instance.onStoreOpen += OpenStore;
         }
     }
 }
