@@ -8,6 +8,8 @@ namespace AlienArena.Inventory
     public class Inventory : MonoBehaviour
     {
         public static Inventory instance;
+
+        public Action<Item, Item> onEquip;
         
         private List<Item> _itemsList = new List<Item>();
         private Equipper _equipper;
@@ -24,11 +26,8 @@ namespace AlienArena.Inventory
 
         public void Equip(Item item)
         {
-            RemoveItem(item);
             Item returnedItem = _equipper.Equip(item);
-            
-            if(returnedItem != null)
-                AddItem(returnedItem);
+            onEquip?.Invoke(item, returnedItem);
         }
 
         private void Awake()

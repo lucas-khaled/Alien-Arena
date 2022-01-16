@@ -5,6 +5,7 @@ namespace AlienArena.Itens
 {
     public class Armor : Item
     {
+        [Header("Armor data")]
         public float life;
         public float velocity;
         public float energy;
@@ -12,6 +13,13 @@ namespace AlienArena.Itens
         public override void HandleEquip(EquipSlot slot)
         {
             Base_HandleEquip(slot);
+        }
+
+        public virtual void HandlePlayerStats(Player.Player player)
+        {
+            player.AddLife(life);
+            player.AddEnergy(energy);
+            player.AddVelocity(velocity);
         }
     }
 }

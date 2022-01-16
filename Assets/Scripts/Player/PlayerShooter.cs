@@ -33,7 +33,7 @@ namespace AlienArena.Player
 
             Weapon weapon = _equipper.GetSlotByType(typeof(Weapon)).item as Weapon;
 
-            for (int i = 0; i < weapon.projectQuantity; i++)
+            for (int i = 0; i < weapon.projectileQuantity; i++)
             {
                 Projectile projectile = Instantiate(weapon.projectile, fireTransform.position, fireTransform.rotation);
                 projectile.damage = weapon.damage;

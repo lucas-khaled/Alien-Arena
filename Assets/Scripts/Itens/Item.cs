@@ -5,8 +5,10 @@ namespace AlienArena.Itens
 {
     public abstract class Item : ScriptableObject
     {
+        [Header("Item data")]
         public Sprite sprite;
         public Material material;
+        public int price;
     
         public abstract void HandleEquip(EquipSlot slot);
 
