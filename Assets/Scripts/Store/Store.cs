@@ -11,9 +11,16 @@ namespace AlienArena.Store
         [SerializeField] private List<Item> itensForSale;
 
         public Action<Item, bool> onStoreChanged;
+        public Action<Item> onInsuficientCoins;
 
         public void BuyItem(Item item, Player.Player player)
         {
+            if (player.Coins < item.price)
+            {
+                onInsuficientCoins?.Invoke(item);
+                return;
+            }
+            
             itensForSale.Remove(item);
             player.AddCoins(-item.price);
             Inventory.Inventory.instance.AddItem(item);

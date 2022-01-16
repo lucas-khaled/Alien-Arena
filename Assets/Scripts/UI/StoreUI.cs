@@ -5,6 +5,7 @@ using System.Reflection;
 using AlienArena.Inventory;
 using AlienArena.Itens;
 using AlienArena.UI;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,6 +16,7 @@ namespace AlienArena.Store
     { 
         [SerializeField] private ItemSlot itemSlotPrefab;
         [SerializeField] private Transform storeContent;
+        [SerializeField] private Transform insuficientCoinsPanel;
         [SerializeField] private DescriptionUI descriptionUI;
 
         private Store _openedStore;
@@ -41,9 +43,14 @@ namespace AlienArena.Store
             }
 
             if (_openedStore != null)
+            {
                 _openedStore.onStoreChanged -= StoreChanged;
-
+                _openedStore.onInsuficientCoins -= InsuficientCoins;
+            }
+            
             store.onStoreChanged += StoreChanged;
+            store.onInsuficientCoins += InsuficientCoins;
+            
             _openedStore = store;
             _actualPlayer = player;
         }
@@ -72,6 +79,13 @@ namespace AlienArena.Store
         {
             _selectedItemSlot = null;
             descriptionUI.ClearDescription();
+        }
+
+        private void InsuficientCoins(Item item)
+        {
+            Sequence showPanel = DOTween.Sequence();
+            showPanel.Append(insuficientCoinsPanel.DOMoveX(100, 0.3f)).AppendInterval(1)
+                .Append(insuficientCoinsPanel.DOMoveX(-100, 0.5f)).SetUpdate(true);
         }
 
         private void StoreChanged(Item item, bool added)
