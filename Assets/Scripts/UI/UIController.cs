@@ -12,11 +12,17 @@ namespace AlienArena
         [SerializeField] private GameObject pauseMenuPanel;
         [SerializeField] private GameObject inventoryPanel;
         [SerializeField] private GameObject storePanel;
+        [SerializeField] private GameObject interactionPanel;
         
         public Action<Store.Store> onInventoryOpen; 
         public Action<Store.Store, Player.Player> onStoreOpen;
         
         private Player.Player _playerRef;
+
+        public void SetInteractionActive(bool active)
+        {
+            interactionPanel.SetActive(active);
+        }
         
         public void OpenInventory(Store.Store store = null)
         {
@@ -58,7 +64,7 @@ namespace AlienArena
             instance = this;
         }
 
-        public void Start()
+        private void Start()
         {
             _playerRef = FindObjectOfType<Player.Player>();
         }

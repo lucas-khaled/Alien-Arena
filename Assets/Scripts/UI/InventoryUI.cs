@@ -75,7 +75,6 @@ namespace AlienArena.Inventory
         private void RemovedItem(Item item)
         {
             ItemSlot slot = _itemSlotList.Find(x => x.StoredItem == item);
-            Debug.Log("Slot index: "+slot.transform.GetSiblingIndex());
             _itemSlotList.Remove(slot);
             Destroy(slot.gameObject);
         }

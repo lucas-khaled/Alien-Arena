@@ -23,11 +23,6 @@ namespace AlienArena.Store
         private ItemSlot _selectedItemSlot;
         private List<ItemSlot> _itemSlotList = new List<ItemSlot>();
 
-        private void Start()
-        {
-            UIController.instance.onStoreOpen += OpenStore;
-        }
-
         public void BuyItem()
         {
             if(_selectedItemSlot == null) return;
@@ -41,6 +36,13 @@ namespace AlienArena.Store
             {
                 AddedItem(item);
             }
+
+            if (_openedStore != null)
+                _openedStore.onStoreChanged -= StoreChanged;
+
+            store.onStoreChanged += StoreChanged;
+            _openedStore = store;
+            _actualPlayer = player;
         }
 
         public void AddedItem(Item item)
@@ -54,7 +56,7 @@ namespace AlienArena.Store
         {
             ItemSlot slot = _itemSlotList.Find(x => x.StoredItem == item);
             _itemSlotList.Remove(slot);
-            Destroy(slot);
+            Destroy(slot.gameObject);
         }
 
         public void SetSelectedSlot(ItemSlot slot)
@@ -67,6 +69,19 @@ namespace AlienArena.Store
         {
             _selectedItemSlot = null;
             descriptionUI.ClearDescription();
+        }
+
+        private void StoreChanged(Item item, bool added)
+        {
+            if(added)
+                AddedItem(item);
+            else
+                RemovedItem(item);
+        }
+        
+        private void Start()
+        {
+            UIController.instance.onStoreOpen += OpenStore;
         }
     }
 }
