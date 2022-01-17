@@ -65,7 +65,7 @@ namespace AlienArena.Inventory
         private void Start()
         {
             _equipper = FindObjectOfType<Equipper>();
-            ActualPlayer = FindObjectOfType<Player.Player>();
+            ActualPlayer = Player.Player.instance;
         }
     }
 }

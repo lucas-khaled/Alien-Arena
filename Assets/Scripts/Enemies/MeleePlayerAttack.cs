@@ -15,7 +15,7 @@ namespace AlienArena.Enemies
         private float attackTime;
         private void Start()
         {
-            _player = FindObjectOfType<Player.Player>();
+            _player = Player.Player.instance;
         }
 
         private void Update()

@@ -27,9 +27,8 @@ namespace AlienArena
         public Action<Store.Store> onInventoryOpen; 
         public Action<Store.Store, Player.Player> onStoreOpen;
         public Action<ArenaSettings> onArenaOpened;
-        
-        public Player.Player PlayerRef { get; private set; }
 
+        private Player.Player _playerRef;
         private Store.Store _openedStore;
 
         
@@ -50,7 +49,7 @@ namespace AlienArena
 
         public void OpenStore(Store.Store store)
         {
-            onStoreOpen?.Invoke(store, PlayerRef);
+            onStoreOpen?.Invoke(store, _playerRef);
             OpenPanels("Store", "Switch");
             
             Time.timeScale = 0;
@@ -107,14 +106,14 @@ namespace AlienArena
             }
 
             instance = this;
-            PlayerRef = FindObjectOfType<Player.Player>();
         }
 
         private void Start()
         {
-            PlayerRef.onChangeAtrribute += PlayerAtributteChange;
+            _playerRef = Player.Player.instance;
+            _playerRef.onChangeAtrribute += PlayerAtributteChange;
             
-            coinsText.SetText("Coins: "+PlayerRef.PlayerStats.coins);
+            coinsText.SetText("Coins: "+_playerRef.PlayerStats.coins);
         }
 
         private void Update()

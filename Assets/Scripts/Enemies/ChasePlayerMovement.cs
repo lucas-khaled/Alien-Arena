@@ -18,7 +18,7 @@ namespace AlienArena.Enemies
         
         public void Start()
         {
-            _player = FindObjectOfType<Player.Player>();
+            _player = Player.Player.instance;
             _rigidbody = GetComponent<Rigidbody2D>();
         }
 

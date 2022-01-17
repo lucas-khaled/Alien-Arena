@@ -35,7 +35,7 @@ namespace AlienArena.Arena
         private void Start()
         {
             StartCoroutine(SpawnEnemiesRoutine());
-            _player = FindObjectOfType<Player.Player>();
+            _player = Player.Player.instance;
         }
 
         private IEnumerator SpawnEnemiesRoutine()

@@ -6,11 +6,26 @@ namespace AlienArena.Player
     public class PlayerStats : ScriptableObject
     {
         public int coins = 0;
-        public float maxLife = 100;
-        public float maxEnergy = 300;
-        public float velocity = 3;
+        [SerializeField] private float baseMaxLife = 100;
+        [SerializeField] private float baseMaxEnergy = 300;
+        [SerializeField] private float baseVelocity = 3;
         
         public float energy;
         public float life;
+
+        public float AddedMaxLife { get; set; }
+        public float AddedMaxEnergy { get; set; }
+        public float AddedVelocity { get; set; }
+
+        public float MaxLife => baseMaxLife + AddedMaxLife;
+        public float MaxEnergy => baseMaxEnergy + AddedMaxEnergy;
+        public float Velocity => baseVelocity + AddedVelocity;
+
+        public void Init()
+        {
+            AddedMaxLife = 0;
+            AddedMaxEnergy = 0;
+            AddedVelocity = 0;
+        }
     }
 }

@@ -7,14 +7,22 @@ namespace AlienArena.Player
 {
     public class Player : MonoBehaviour
     {
+        public static Player instance;
+            
         [SerializeField] private PlayerStats stats;
         public Action<float, string> onChangeAtrribute;
 
         public PlayerStats PlayerStats => stats;
-        
+
+        private void Awake()
+        {
+            PlayerStats.Init();
+            instance = this;
+        }
+
         private void Start()
         {
-            Inventory.InventoryController.instance.onEquip += ChangeEquipStats;
+            InventoryController.instance.onEquip += ChangeEquipStats;
             AddLife(100);
         }
 
@@ -26,7 +34,7 @@ namespace AlienArena.Player
 
         public void Damage(float damage)
         {
-            stats.life = Mathf.Clamp(stats.life - damage, 0, stats.maxLife);
+            stats.life = Mathf.Clamp(stats.life - damage, 0, stats.AddedMaxLife);
             onChangeAtrribute?.Invoke(stats.life, "Life");
         }
 
@@ -38,22 +46,22 @@ namespace AlienArena.Player
 
         public void AddLife(float life)
         {
-            stats.maxLife += life;
+            stats.AddedMaxLife += life;
             Damage(-life);
-            onChangeAtrribute?.Invoke(stats.maxLife, "MaxLife");
+            onChangeAtrribute?.Invoke(stats.AddedMaxLife, "MaxLife");
         }
 
         public void AddVelocity(float velocity)
         {
-            stats.velocity += velocity;
-            onChangeAtrribute?.Invoke(stats.velocity, "Velocity");
+            stats.AddedVelocity += velocity;
+            onChangeAtrribute?.Invoke(stats.AddedVelocity, "Velocity");
         }
 
         public void AddMaxEnergy(float energy)
         {
-            stats.maxEnergy += energy;
+            stats.AddedMaxEnergy += energy;
             UseEnergy(-energy);
-            onChangeAtrribute?.Invoke(stats.maxEnergy, "MaxEnergy");
+            onChangeAtrribute?.Invoke(stats.AddedMaxEnergy, "MaxEnergy");
         }
 
         public void ChangeEquipStats(Item addedItem, Item removedItem)

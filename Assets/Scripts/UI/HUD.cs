@@ -34,7 +34,7 @@ namespace AlienArena.UI
 
         private void Start()
         {
-            player = GamePauseUIController.instance.PlayerRef;
+            player = Player.Player.instance;
             player.onChangeAtrribute += OnPlayerAttributeChange;
         }
 
@@ -43,10 +43,10 @@ namespace AlienArena.UI
             switch (name)
             {
                 case "Life":
-                    lifeBar.fillAmount = value / player.PlayerStats.maxLife;
+                    lifeBar.fillAmount = value / player.PlayerStats.MaxLife;
                     break;
                 case "Energy":
-                    energyBar.fillAmount = value / player.PlayerStats.maxEnergy;
+                    energyBar.fillAmount = value / player.PlayerStats.MaxEnergy;
                     break;
             }
         }
