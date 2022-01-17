@@ -18,7 +18,7 @@ namespace AlienArena.Inventory
         private List<ItemSlot> _itemSlotList = new List<ItemSlot>();
         private ItemSlot _selectedSlot;
         
-        private Inventory _inventory;
+        private InventoryController _inventoryController;
         private GamePauseUIController _controller;
         private Store.Store _store;
 
@@ -26,23 +26,23 @@ namespace AlienArena.Inventory
         {
             if (_selectedSlot == null) return;
             
-            _store.SellItem(_selectedSlot.StoredItem, _inventory.ActualPlayer);
+            _store.SellItem(_selectedSlot.StoredItem, _inventoryController.ActualPlayer);
             _selectedSlot = null;
             descriptionUI.ClearDescription();
         }
         
         public void Equip()
         {
-            _inventory.Equip(_selectedSlot.StoredItem);
+            _inventoryController.Equip(_selectedSlot.StoredItem);
             _selectedSlot = null;
             descriptionUI.ClearDescription();
         }
         
         private void Start()
         {
-            _inventory = Inventory.instance;
+            _inventoryController = InventoryController.instance;
             _controller = GamePauseUIController.instance;
-            _inventory.onInventoryChanged += InventoryChanged;
+            _inventoryController.onInventoryChanged += InventoryChanged;
             _controller.onInventoryOpen += InventoryOpened;
             FillInventoryUI();
         }
@@ -57,7 +57,7 @@ namespace AlienArena.Inventory
 
         private void FillInventoryUI()
         {
-            foreach (var item in _inventory.GetItemList())
+            foreach (var item in _inventoryController.GetInventory().GetItemList())
                 AddedItem(item);
         }
 

@@ -17,7 +17,7 @@ namespace AlienArena.Inventory
 
         public EquipSlot GetSlotByType(Type type)
         {
-            return slots.Find(x => x.type == type);
+            return slots.Find(x => x.data.type == type);
         }
 
         public Item Equip(Item item)
@@ -25,9 +25,9 @@ namespace AlienArena.Inventory
             Item returnedItem = null;
             if(!_relationFilled) FillRelation();
 
-            EquipSlot rightSlot = slots.Find(x => x.type == item.GetType());
+            EquipSlot rightSlot = slots.Find(x => x.data.type == item.GetType());
             
-            if (rightSlot.item != null) returnedItem = Unequip(rightSlot);
+            if (rightSlot.data.item != null) returnedItem = Unequip(rightSlot);
 
             item.HandleEquip(rightSlot);
 
@@ -36,9 +36,9 @@ namespace AlienArena.Inventory
 
         public Item Unequip(EquipSlot slot)
         {
-            Item inItem = slot.item;
+            Item inItem = slot.data.item;
             
-            slot.item = null;
+            slot.data.item = null;
             slot.spriteRenderer.sprite = null;
             slot.spriteRenderer.material = null;
 
@@ -54,7 +54,7 @@ namespace AlienArena.Inventory
         {
             foreach (var slot in slots)
             {
-                Equip(slot.item);
+                Equip(slot.data.item);
             }
         }
 
@@ -65,7 +65,7 @@ namespace AlienArena.Inventory
                 EquipSlot slot = slots.Find(x => x.spriteRenderer.name.Contains(type.Name));
                 
                 if(slot != null)
-                    slot.type = type;
+                    slot.data.type = type;
                 
             }
 
@@ -77,8 +77,6 @@ namespace AlienArena.Inventory
     public class EquipSlot
     {
         public SpriteRenderer spriteRenderer;
-        public Item item;
-        public Type type { get; set; }
-        
+        public EquipData data;
     }
 }

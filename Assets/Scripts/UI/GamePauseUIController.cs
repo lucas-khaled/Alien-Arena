@@ -91,7 +91,7 @@ namespace AlienArena
         {
             PlayerRef.onChangeAtrribute += PlayerAtributteChange;
             
-            coinsText.SetText("Coins: "+PlayerRef.Coins);
+            coinsText.SetText("Coins: "+PlayerRef.PlayerStats.coins);
         }
 
         private void Update()

@@ -264,9 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fbed165ce7d2814d92c7109f382c05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _itemsList:
-  - {fileID: 11400000, guid: b28d437353bc2be4fb66874451c97d91, type: 2}
-  - {fileID: 11400000, guid: a63d7174310826f46a4a494d5b9d2822, type: 2}
+  inventory: {fileID: 11400000, guid: e789bd820c2d07c4b9fd56e2f63fed4a, type: 2}
 --- !u!4 &172705073
 Transform:
   m_ObjectHideFlags: 0
@@ -446,16 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd281fe60be04784aacb390b4bcff107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionRange: 3
-  store:
-    itensForSale:
-    - {fileID: 11400000, guid: d5adc2a07126ce540a3c56a8f61d12c8, type: 2}
-    - {fileID: 11400000, guid: 0c1cbb29439c3944693d5a7c12e52539, type: 2}
-    - {fileID: 11400000, guid: a63d7174310826f46a4a494d5b9d2822, type: 2}
-    - {fileID: 11400000, guid: 132731ed1f33d7249af5d61c8476d0a8, type: 2}
-    - {fileID: 11400000, guid: c7def4a4cecfe3b47b5266c7e1df13fe, type: 2}
-  _player: {fileID: 0}
-  _inRange: 0
+  store: {fileID: 11400000, guid: fa3d44a16dc61be49b559f411f77d1c7, type: 2}
 --- !u!212 &218863023
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -768,15 +757,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots:
   - spriteRenderer: {fileID: 827235779}
-    item: {fileID: 11400000, guid: 41f82c9ad876c90409ef6f9309683acd, type: 2}
+    data: {fileID: 11400000, guid: ff576f2ae150b1148966a55db51e9027, type: 2}
   - spriteRenderer: {fileID: 2122076232}
-    item: {fileID: 11400000, guid: 0c1cbb29439c3944693d5a7c12e52539, type: 2}
+    data: {fileID: 11400000, guid: a29dd320696490744b9187bb526752e1, type: 2}
   - spriteRenderer: {fileID: 2060206519}
-    item: {fileID: 11400000, guid: b28d437353bc2be4fb66874451c97d91, type: 2}
+    data: {fileID: 11400000, guid: 1dfe082d61afe36458e65441b1aee7c1, type: 2}
   - spriteRenderer: {fileID: 1262953558}
-    item: {fileID: 11400000, guid: 9eebd0394547290419041ddcd8c1129a, type: 2}
+    data: {fileID: 11400000, guid: 5f6f2d9af926db145b07af2c4b51710a, type: 2}
   - spriteRenderer: {fileID: 1783570116}
-    item: {fileID: 11400000, guid: c7def4a4cecfe3b47b5266c7e1df13fe, type: 2}
+    data: {fileID: 11400000, guid: 6dbe14ab234932e4cb5e7f88e43e59aa, type: 2}
 --- !u!114 &341459798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,6 +818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5caa4158abc5438689943eb00a6f4d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 76357efc498ed8a41b6f30c2dec44503, type: 2}
 --- !u!114 &341459801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2392,16 +2382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd281fe60be04784aacb390b4bcff107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionRange: 1
-  store:
-    itensForSale:
-    - {fileID: 11400000, guid: 9eebd0394547290419041ddcd8c1129a, type: 2}
-    - {fileID: 11400000, guid: d5adc2a07126ce540a3c56a8f61d12c8, type: 2}
-    - {fileID: 11400000, guid: 9eebd0394547290419041ddcd8c1129a, type: 2}
-    - {fileID: 11400000, guid: 41f82c9ad876c90409ef6f9309683acd, type: 2}
-    - {fileID: 11400000, guid: 5e6d0c35025d3864fabc457452382ba5, type: 2}
-  _player: {fileID: 0}
-  _inRange: 0
+  store: {fileID: 0}
 --- !u!212 &799363917
 SpriteRenderer:
   m_ObjectHideFlags: 0

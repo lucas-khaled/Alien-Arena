@@ -14,7 +14,7 @@ namespace AlienArena.Itens
 
         protected void Base_HandleEquip(EquipSlot slot)
         {
-            slot.item = this;
+            slot.data.item = this;
             slot.spriteRenderer.sprite = sprite;
             slot.spriteRenderer.material = material;
         } 

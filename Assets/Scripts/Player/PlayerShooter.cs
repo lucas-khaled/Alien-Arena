@@ -31,7 +31,7 @@ namespace AlienArena.Player
         {
             if(_fireTime<fireRate) return;
 
-            Weapon weapon = _equipper.GetSlotByType(typeof(Weapon)).item as Weapon;
+            Weapon weapon = _equipper.GetSlotByType(typeof(Weapon)).data.item as Weapon;
             
             if(weapon == null) return;
 

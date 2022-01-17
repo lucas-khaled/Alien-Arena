@@ -5,8 +5,8 @@ using UnityEngine;
 
 namespace AlienArena.Store
 {
-    [System.Serializable]
-    public class Store
+    [CreateAssetMenu(fileName = "Store", menuName = "Alien Arena/Store")]
+    public class Store : ScriptableObject
     {
         [SerializeField] private List<Item> itensForSale;
 
@@ -15,7 +15,7 @@ namespace AlienArena.Store
 
         public void BuyItem(Item item, Player.Player player)
         {
-            if (player.Coins < item.price)
+            if (player.PlayerStats.coins < item.price)
             {
                 onInsuficientCoins?.Invoke(item);
                 return;
@@ -23,7 +23,7 @@ namespace AlienArena.Store
             
             itensForSale.Remove(item);
             player.AddCoins(-item.price);
-            Inventory.Inventory.instance.AddItem(item);
+            Inventory.InventoryController.instance.AddItem(item);
             
             onStoreChanged?.Invoke(item, false);
         }
@@ -32,7 +32,7 @@ namespace AlienArena.Store
         {
             itensForSale.Add(item);
             player.AddCoins(item.price);
-            Inventory.Inventory.instance.RemoveItem(item);
+            Inventory.InventoryController.instance.RemoveItem(item);
             
             onStoreChanged?.Invoke(item, true);
         }

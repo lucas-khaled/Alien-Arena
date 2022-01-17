@@ -7,58 +7,53 @@ namespace AlienArena.Player
 {
     public class Player : MonoBehaviour
     {
-        public int Coins { get; private set; }
-        public float MaxLife { get; private set; }
-        public float MaxEnergy { get; private set; }
-        public float Velocity { get; private set; }
-        
-        private float _energy;
-        private float _life;
-
+        [SerializeField] private PlayerStats stats;
         public Action<float, string> onChangeAtrribute;
 
+        public PlayerStats PlayerStats => stats;
+        
         private void Start()
         {
-            Inventory.Inventory.instance.onEquip += ChangeEquipStats;
+            Inventory.InventoryController.instance.onEquip += ChangeEquipStats;
             AddLife(100);
         }
 
         public void UseEnergy(float usage)
         {
-            _energy -= usage;
-            onChangeAtrribute?.Invoke(_energy,"Energy");
+            stats.energy -= usage;
+            onChangeAtrribute?.Invoke(stats.energy,"Energy");
         }
 
         public void Damage(float damage)
         {
-            _life = Mathf.Clamp(_life - damage, 0, MaxLife);
-            onChangeAtrribute?.Invoke(_life, "Life");
+            stats.life = Mathf.Clamp(stats.life - damage, 0, stats.maxLife);
+            onChangeAtrribute?.Invoke(stats.life, "Life");
         }
 
         public void AddCoins(int coins)
         {
-            Coins += coins;
-            onChangeAtrribute?.Invoke(Coins, "Coins");
+            stats.coins += coins;
+            onChangeAtrribute?.Invoke(stats.coins, "Coins");
         }
 
         public void AddLife(float life)
         {
-            MaxLife += life;
+            stats.maxLife += life;
             Damage(-life);
-            onChangeAtrribute?.Invoke(MaxLife, "MaxLife");
+            onChangeAtrribute?.Invoke(stats.maxLife, "MaxLife");
         }
 
         public void AddVelocity(float velocity)
         {
-            Velocity += velocity;
-            onChangeAtrribute?.Invoke(MaxLife, "Velocity");
+            stats.velocity += velocity;
+            onChangeAtrribute?.Invoke(stats.velocity, "Velocity");
         }
 
         public void AddMaxEnergy(float energy)
         {
-            MaxEnergy += energy;
+            stats.maxEnergy += energy;
             UseEnergy(-energy);
-            onChangeAtrribute?.Invoke(MaxLife, "MaxEnergy");
+            onChangeAtrribute?.Invoke(stats.maxEnergy, "MaxEnergy");
         }
 
         public void ChangeEquipStats(Item addedItem, Item removedItem)

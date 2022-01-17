@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 
 namespace AlienArena.Itens
 {
-    [CreateAssetMenu(fileName = "Weapon", menuName = "Itens/Weapon")]
+    [CreateAssetMenu(fileName = "Weapon", menuName = "Alien Arena/Itens/Weapon")]
     public class Weapon : Item
     {
         [Header("Weapon Data")]

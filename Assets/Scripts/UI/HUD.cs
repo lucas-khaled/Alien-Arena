@@ -43,10 +43,10 @@ namespace AlienArena.UI
             switch (name)
             {
                 case "Life":
-                    lifeBar.fillAmount = value / player.MaxLife;
+                    lifeBar.fillAmount = value / player.PlayerStats.maxLife;
                     break;
                 case "Energy":
-                    energyBar.fillAmount = value / player.MaxEnergy;
+                    energyBar.fillAmount = value / player.PlayerStats.maxEnergy;
                     break;
             }
         }
