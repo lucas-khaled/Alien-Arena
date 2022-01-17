@@ -55,6 +55,13 @@ namespace AlienArena.Inventory
             foreach (var slot in slots)
             {
                 Equip(slot.data.item);
+
+                if (slot.data.item.GetType() == typeof(Armor) || slot.data.item.GetType().IsSubclassOf(typeof(Armor)))
+                {
+                    Armor armor = (Armor) slot.data.item;
+                    armor.HandlePlayerStats(Player.Player.instance);
+                    //Debug.Log("Item: "+armor.name + " - " + armor.life);
+                }
             }
         }
 

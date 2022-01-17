@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,9 @@ namespace AlienArena.UI
         [SerializeField] private Image lifeBar;
         [SerializeField] private Image energyBar;
         [SerializeField] private GameObject interactionPanel;
+        
+        [SerializeField] private TMP_Text lifeText;
+        [SerializeField] private TMP_Text energyText;
 
         private Player.Player player;
         
@@ -44,9 +48,11 @@ namespace AlienArena.UI
             {
                 case "Life":
                     lifeBar.fillAmount = value / player.PlayerStats.MaxLife;
+                    lifeText.SetText(value + " / "+player.PlayerStats.MaxLife);
                     break;
                 case "Energy":
                     energyBar.fillAmount = value / player.PlayerStats.MaxEnergy;
+                    energyText.SetText(value + " / "+player.PlayerStats.MaxEnergy);
                     break;
             }
         }

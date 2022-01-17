@@ -23,7 +23,6 @@ namespace AlienArena.Player
         private void Start()
         {
             InventoryController.instance.onEquip += ChangeEquipStats;
-            AddLife(100);
         }
 
         public void UseEnergy(float usage)
@@ -34,7 +33,9 @@ namespace AlienArena.Player
 
         public void Damage(float damage)
         {
-            stats.life = Mathf.Clamp(stats.life - damage, 0, stats.AddedMaxLife);
+            float value = Mathf.Clamp(stats.life - damage, 0, stats.MaxLife);
+            stats.life = value;
+           
             onChangeAtrribute?.Invoke(stats.life, "Life");
         }
 
@@ -48,7 +49,7 @@ namespace AlienArena.Player
         {
             stats.AddedMaxLife += life;
             Damage(-life);
-            onChangeAtrribute?.Invoke(stats.AddedMaxLife, "MaxLife");
+            onChangeAtrribute?.Invoke(stats.AddedMaxLife, "AddedLife");
         }
 
         public void AddVelocity(float velocity)
@@ -61,7 +62,7 @@ namespace AlienArena.Player
         {
             stats.AddedMaxEnergy += energy;
             UseEnergy(-energy);
-            onChangeAtrribute?.Invoke(stats.AddedMaxEnergy, "MaxEnergy");
+            onChangeAtrribute?.Invoke(stats.AddedMaxEnergy, "AddedEnergy");
         }
 
         public void ChangeEquipStats(Item addedItem, Item removedItem)
@@ -74,7 +75,7 @@ namespace AlienArena.Player
             if(removedItem == null) return;
 
             Armor removedArmor = (Armor) removedItem;
-            removedArmor.HandlePlayerStats(this);
+            removedArmor.HandlePlayerStats(this, -1);
         }
         
     }

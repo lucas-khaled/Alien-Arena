@@ -79,6 +79,8 @@ namespace AlienArena.Inventory
 
         private void AddedItem(Item item)
         {
+            if(item == null) return;
+            
             ItemSlot slot = Instantiate(itemSlotPrefab, itemSlotsContent);
             slot.SetItem(item, ClickedOnSlot);
             _itemSlotList.Add(slot);
@@ -86,7 +88,11 @@ namespace AlienArena.Inventory
 
         private void RemovedItem(Item item)
         {
+            if(item == null) return;
+            
             ItemSlot slot = _itemSlotList.Find(x => x.StoredItem == item);
+            if(slot == null) return;
+            
             _itemSlotList.Remove(slot);
             Destroy(slot.gameObject);
         }

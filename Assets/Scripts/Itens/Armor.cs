@@ -15,11 +15,11 @@ namespace AlienArena.Itens
             Base_HandleEquip(slot);
         }
 
-        public virtual void HandlePlayerStats(Player.Player player)
+        public virtual void HandlePlayerStats(Player.Player player, int multiplyer = 1)
         {
-            player.AddLife(life);
-            player.AddMaxEnergy(energy);
-            player.AddVelocity(velocity);
+            player.AddLife(life * multiplyer);
+            player.AddMaxEnergy(energy * multiplyer);
+            player.AddVelocity(velocity * multiplyer);
         }
     }
 }

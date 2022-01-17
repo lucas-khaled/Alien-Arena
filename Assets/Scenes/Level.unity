@@ -847,6 +847,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1108444413995587430, guid: 8b8d5955178872a49b8850798340920a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -14.270004
+      objectReference: {fileID: 0}
     - target: {fileID: 5346931701871845106, guid: 8b8d5955178872a49b8850798340920a, type: 3}
       propertyPath: m_Name
       value: Root
@@ -894,6 +898,14 @@ PrefabInstance:
     - target: {fileID: 6173924243907486859, guid: 8b8d5955178872a49b8850798340920a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487312552372111988, guid: 8b8d5955178872a49b8850798340920a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 8.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7487312552372111988, guid: 8b8d5955178872a49b8850798340920a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.0100007
       objectReference: {fileID: 0}
     - target: {fileID: 7487312552728434308, guid: 8b8d5955178872a49b8850798340920a, type: 3}
       propertyPath: m_AnchoredPosition.y

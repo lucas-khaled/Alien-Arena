@@ -26,6 +26,9 @@ namespace AlienArena.Player
             AddedMaxLife = 0;
             AddedMaxEnergy = 0;
             AddedVelocity = 0;
+
+            energy = baseMaxEnergy;
+            life = baseMaxLife;
         }
     }
 }
