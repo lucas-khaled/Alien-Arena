@@ -36,6 +36,16 @@ namespace AlienArena.Store
 
         public void OpenStore(Store store, Player.Player player)
         {
+            descriptionUI.ClearDescription();
+            
+            if (_selectedItemSlot != null)
+            {
+                _selectedItemSlot.UnSetSelection();
+                _selectedItemSlot = null;
+            }
+            
+            if(store == _openedStore) return;
+            
             ClearStore();
             foreach (var item in store.GetItensForSale())
             {
@@ -47,7 +57,7 @@ namespace AlienArena.Store
                 _openedStore.onStoreChanged -= StoreChanged;
                 _openedStore.onInsuficientCoins -= InsuficientCoins;
             }
-            
+
             store.onStoreChanged += StoreChanged;
             store.onInsuficientCoins += InsuficientCoins;
             
@@ -71,14 +81,13 @@ namespace AlienArena.Store
 
         public void SetSelectedSlot(ItemSlot slot)
         {
+            if(_selectedItemSlot != null)
+                _selectedItemSlot.UnSetSelection();
+            
+            slot.SetSelection();
+            
             _selectedItemSlot = slot;
             descriptionUI.SetDescription(slot.StoredItem);
-        }
-
-        public void ClearSelectedSlot()
-        {
-            _selectedItemSlot = null;
-            descriptionUI.ClearDescription();
         }
 
         private void InsuficientCoins(Item item)

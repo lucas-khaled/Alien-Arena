@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using AlienArena.Arena;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,39 +21,50 @@ namespace AlienArena
         [SerializeField] private GameObject pauseMenuPanel;
         [SerializeField] private GameObject inventoryPanel;
         [SerializeField] private GameObject storePanel;
+        [SerializeField] private GameObject arenaUIPanel;
         
 
         public Action<Store.Store> onInventoryOpen; 
         public Action<Store.Store, Player.Player> onStoreOpen;
+        public Action<ArenaSettings> onArenaOpened;
         
         public Player.Player PlayerRef { get; private set; }
 
         private Store.Store _openedStore;
 
         
-        
         public void OpenInventory(Store.Store store = null)
         {
             onInventoryOpen?.Invoke(store);
-            storePanel.SetActive(false);
-            inventoryPanel.SetActive(true);
+
+            List<string> panels = new List<string>();
+            panels.Add("Inventory");
+            
+            if(store != null)
+                panels.Add("Switch");
+            
+            OpenPanels(panels.ToArray());
 
             Time.timeScale = 0;
-            pauseMenuPanel.SetActive(true);
         }
 
         public void OpenStore(Store.Store store)
         {
             onStoreOpen?.Invoke(store, PlayerRef);
-            storePanel.SetActive(true);
-            inventoryPanel.SetActive(false);
-            switchToggleGroup.gameObject.SetActive(true);
+            OpenPanels("Store", "Switch");
             
             Time.timeScale = 0;
-            pauseMenuPanel.SetActive(true);
-
             _openedStore = store;
         }
+
+        public void OpenArena(ArenaSettings settings)
+        {
+            onArenaOpened?.Invoke(settings);
+            OpenPanels("Arena");
+
+            Time.timeScale = 0;
+        }
+        
 
         public void QuitPause()
         {
@@ -73,6 +86,16 @@ namespace AlienArena
                 OpenStore(_openedStore);
             else
                 OpenInventory(_openedStore);
+        }
+
+        private void OpenPanels(params string[] panelNames)
+        {
+            storePanel.SetActive(panelNames.Contains("Store"));
+            inventoryPanel.SetActive(panelNames.Contains("Inventory"));
+            arenaUIPanel.SetActive(panelNames.Contains("Arena"));
+            switchToggleGroup.gameObject.SetActive(panelNames.Contains("Switch"));
+            
+            pauseMenuPanel.SetActive(true);
         }
         
         private void Awake()

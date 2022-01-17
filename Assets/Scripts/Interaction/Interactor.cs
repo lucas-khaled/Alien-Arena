@@ -1,10 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using AlienArena.UI;
 using UnityEngine;
 
-namespace AlienArena.Controllers
+namespace AlienArena.Interaction
 {
     public class Interactor : MonoBehaviour
     {

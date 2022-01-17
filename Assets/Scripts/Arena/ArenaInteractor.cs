@@ -1,4 +1,5 @@
-﻿using AlienArena.Controllers;
+﻿using AlienArena.Interaction;
+using AlienArena.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,13 +11,7 @@ namespace AlienArena.Arena
         
         public void Interact()
         {
-            StartArenaChallenge(0);
-        }
-
-        public void StartArenaChallenge(int index)
-        {   
-            settings.SetActualChallenge(index);
-            SceneManager.LoadScene("Arena");
+            GamePauseUIController.instance.OpenArena(settings);
         }
     }
 }

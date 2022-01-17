@@ -52,6 +52,14 @@ namespace AlienArena.Inventory
             equipButton.gameObject.SetActive(store == null);
             sellButton.gameObject.SetActive(store != null);
 
+            descriptionUI.ClearDescription();
+            if (_selectedSlot != null)
+            {
+                _selectedSlot.UnSetSelection();
+                _selectedSlot = null;
+            }
+                
+
             _store = store;
         }
 
@@ -85,6 +93,11 @@ namespace AlienArena.Inventory
 
         private void ClickedOnSlot(ItemSlot slot)
         {
+            if(_selectedSlot != null)
+                _selectedSlot.UnSetSelection();
+            
+            slot.SetSelection();
+            
             _selectedSlot = slot;
             descriptionUI.SetDescription(slot.StoredItem);
         }

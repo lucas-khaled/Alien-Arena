@@ -12,6 +12,7 @@ namespace AlienArena.Inventory
     public class ItemSlot : MonoBehaviour
     {
         [SerializeField] private Image itemImage;
+        [SerializeField] private GameObject selectedGameObject;
         [SerializeField] private TMP_Text itemNameText;
 
         public Item StoredItem { get; private set; }
@@ -26,6 +27,16 @@ namespace AlienArena.Inventory
             itemNameText.text = item.name;
             
             _button.onClick.AddListener( delegate { callback?.Invoke(this); });
+        }
+
+        public void SetSelection()
+        {
+            selectedGameObject.SetActive(true);
+        }
+
+        public void UnSetSelection()
+        {
+            selectedGameObject.SetActive(false);
         }
     }
 }

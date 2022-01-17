@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using AlienArena.Controllers;
+using AlienArena.Interaction;
 using AlienArena.Player;
 using AlienArena.UI;
 using UnityEngine;
