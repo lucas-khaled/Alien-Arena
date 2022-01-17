@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AlienArena.Enemies;
 using UnityEngine;
 
 namespace AlienArena.Itens
@@ -34,10 +35,16 @@ namespace AlienArena.Itens
             _rigidbody.MovePosition(_rigidbody.position + bulletDirection);
         }
 
-        private void OnCollisionEnter2D(Collision2D other)
+        private void OnTriggerEnter2D(Collider2D other)
         {
             if(effectOnHit != null)
                 Instantiate(effectOnHit, transform.position, transform.rotation);
+
+            if (other.gameObject.CompareTag("Enemy"))
+            {
+                Enemy enemy = other.gameObject.GetComponent<Enemy>();
+                enemy.Damage(damage);
+            }
             
             Destroy(gameObject);
         }

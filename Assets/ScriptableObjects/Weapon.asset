@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2107929a60b14e629ede6b4ad6a6f842, type: 3}
   m_Name: Weapon
   m_EditorClassIdentifier: 
-  sprite: {fileID: 9097765134315691834, guid: 9670c6528cac2f44ca6945bba24cd028, type: 3}
+  sprite: {fileID: -3637557228772214577, guid: 9670c6528cac2f44ca6945bba24cd028, type: 3}
   material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  price: 200
-  damage: 2
+  price: 100
+  damage: 10
   bullets: 1
   projectile: {fileID: 3168919656960241756, guid: 8cf21ae6970a9fb489320eb016efec33, type: 3}
