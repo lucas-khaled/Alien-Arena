@@ -87,11 +87,11 @@ namespace AlienArena
             }
 
             instance = this;
+            PlayerRef = FindObjectOfType<Player.Player>();
         }
 
         private void Start()
         {
-            PlayerRef = FindObjectOfType<Player.Player>();
             PlayerRef.onChangeAtrribute += PlayerAtributteChange;
             
             coinsText.SetText("Coins: "+PlayerRef.Coins);

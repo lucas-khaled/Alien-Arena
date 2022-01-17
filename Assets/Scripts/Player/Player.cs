@@ -20,6 +20,7 @@ namespace AlienArena.Player
         private void Start()
         {
             Inventory.Inventory.instance.onEquip += ChangeEquipStats;
+            AddLife(100);
         }
 
         public void UseEnergy(float usage)
