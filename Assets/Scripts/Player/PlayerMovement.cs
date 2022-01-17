@@ -5,19 +5,18 @@ namespace AlienArena.Player
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerMovement : MonoBehaviour
     {
-        [SerializeField] 
-        private float speed = 3f;
-    
         [SerializeField] [Tooltip("This will tell if the movement should be relative to player's rotation")] 
         private bool relativeMove = false;
 
         private Rigidbody2D _rigidbody;
         private Vector2 _movementVector;
         private Vector2 _lookDirection;
+        private Player _player;
 
         private void Start()
         {
             _rigidbody = GetComponent<Rigidbody2D>();
+            _player = Player.instance;
         }
 
         void Update()
@@ -60,7 +59,7 @@ namespace AlienArena.Player
                 Vector2 frontDirection = (lookDirection * _movementVector.y);
                 Vector2 relativeMovDirection = frontDirection + sideDirection;
                                            
-                Vector2 newPosition = _rigidbody.position + relativeMovDirection.normalized * (speed * Time.fixedDeltaTime);
+                Vector2 newPosition = _rigidbody.position + relativeMovDirection.normalized * (_player.PlayerStats.Velocity * Time.fixedDeltaTime);
                 _rigidbody.MovePosition(newPosition);
             }
         }
@@ -69,7 +68,7 @@ namespace AlienArena.Player
         {
             if (_movementVector.magnitude > 0)
             {
-                Vector2 newPosition = _rigidbody.position + _movementVector * (speed * Time.fixedDeltaTime);
+                Vector2 newPosition = _rigidbody.position + _movementVector * (_player.PlayerStats.Velocity * Time.fixedDeltaTime);
                 _rigidbody.MovePosition(newPosition);
             }
         }
