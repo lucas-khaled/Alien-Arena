@@ -21,7 +21,7 @@ namespace AlienArena.Player
         private void Update()
         {
             _fireTime += Time.deltaTime;
-            if (Input.GetMouseButtonDown(0))
+            if (Time.timeScale == 1 && Input.GetMouseButtonDown(0))
             {
                 Shoot();
             }
@@ -51,7 +51,9 @@ namespace AlienArena.Player
                 Vector2 position = leftRangePoint + rangeVector * i / (weapon.bullets - 1);
                 InstantiateBullet(weapon,position);
             }
-            
+
+            _fireTime = 0;
+
         }
 
         private void InstantiateBullet(Weapon weapon, Vector3 position)

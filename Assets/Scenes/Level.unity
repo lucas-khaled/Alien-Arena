@@ -454,6 +454,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a63d7174310826f46a4a494d5b9d2822, type: 2}
     - {fileID: 11400000, guid: 132731ed1f33d7249af5d61c8476d0a8, type: 2}
     - {fileID: 11400000, guid: c7def4a4cecfe3b47b5266c7e1df13fe, type: 2}
+  _player: {fileID: 0}
+  _inRange: 0
 --- !u!212 &218863023
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -690,6 +692,7 @@ GameObject:
   - component: {fileID: 341459798}
   - component: {fileID: 341459799}
   - component: {fileID: 341459800}
+  - component: {fileID: 341459801}
   m_Layer: 3
   m_Name: Character
   m_TagString: Untagged
@@ -826,6 +829,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5caa4158abc5438689943eb00a6f4d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &341459801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341459793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b20ee24824582c45b4e7de8b3fa37ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  key: 101
+  range: 2
 --- !u!1 &344250578
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,7 +951,6 @@ MonoBehaviour:
   pauseMenuPanel: {fileID: 1042530790}
   inventoryPanel: {fileID: 1505553275}
   storePanel: {fileID: 1746354418}
-  interactionPanel: {fileID: 1758635555}
 --- !u!114 &344250584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,6 +965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeBar: {fileID: 1918220934}
   energyBar: {fileID: 1533388727}
+  interactionPanel: {fileID: 1758635555}
 --- !u!1 &397842748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,6 +2400,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 9eebd0394547290419041ddcd8c1129a, type: 2}
     - {fileID: 11400000, guid: 41f82c9ad876c90409ef6f9309683acd, type: 2}
     - {fileID: 11400000, guid: 5e6d0c35025d3864fabc457452382ba5, type: 2}
+  _player: {fileID: 0}
+  _inRange: 0
 --- !u!212 &799363917
 SpriteRenderer:
   m_ObjectHideFlags: 0

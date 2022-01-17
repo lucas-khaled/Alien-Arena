@@ -19,7 +19,7 @@ namespace AlienArena
         [SerializeField] private GameObject pauseMenuPanel;
         [SerializeField] private GameObject inventoryPanel;
         [SerializeField] private GameObject storePanel;
-        [SerializeField] private GameObject interactionPanel;
+        
 
         public Action<Store.Store> onInventoryOpen; 
         public Action<Store.Store, Player.Player> onStoreOpen;
@@ -28,10 +28,7 @@ namespace AlienArena
 
         private Store.Store _openedStore;
 
-        public void SetInteractionActive(bool active)
-        {
-            interactionPanel.SetActive(active);
-        }
+        
         
         public void OpenInventory(Store.Store store = null)
         {

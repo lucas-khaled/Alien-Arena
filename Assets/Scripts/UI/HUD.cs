@@ -8,11 +8,30 @@ namespace AlienArena.UI
 {
     public class HUD : MonoBehaviour
     {
+        public static HUD instance;
+        
         [SerializeField] private Image lifeBar;
         [SerializeField] private Image energyBar;
+        [SerializeField] private GameObject interactionPanel;
 
         private Player.Player player;
         
+        public void SetInteractionActive(bool active)
+        {
+            interactionPanel.SetActive(active);
+        }
+
+        private void Awake()
+        {
+            if (instance != null)
+            {
+                Destroy(this);
+                return;
+            }
+
+            instance = this;
+        }
+
         private void Start()
         {
             player = GamePauseUIController.instance.PlayerRef;
