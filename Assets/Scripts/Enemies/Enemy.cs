@@ -9,6 +9,8 @@ namespace AlienArena.Enemies
     {
         [SerializeField] private float maxLife = 100;
 
+        public Action<Enemy> onEnemyDeath;
+        
         private float _life;
 
         public void Damage(float amount)
@@ -22,6 +24,7 @@ namespace AlienArena.Enemies
         private void Die()
         {
             Destroy(gameObject);
+            onEnemyDeath?.Invoke(this);
         }
         
         protected void Start()
