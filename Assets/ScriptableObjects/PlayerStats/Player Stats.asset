@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b561e16164f42f6ab66d00a0d4a6340, type: 3}
   m_Name: Player Stats
   m_EditorClassIdentifier: 
-  coins: 0
+  coins: 4150
   baseMaxLife: 100
   baseMaxEnergy: 300
   baseVelocity: 3
-  energy: 300
-  life: 100
+  energy: 560
+  life: 202

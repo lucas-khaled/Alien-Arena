@@ -47,6 +47,7 @@ namespace AlienArena.Player
 
         private void ApplyRotation()
         {
+            if(_lookDirection.magnitude < 0.2f) return;
             float angle = Mathf.Atan2(_lookDirection.y, _lookDirection.x) * Mathf.Rad2Deg - 90f;
             _rigidbody.rotation = angle;
         }

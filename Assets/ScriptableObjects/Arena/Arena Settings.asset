@@ -14,3 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   challenges:
   - {fileID: 11400000, guid: a02d74b4df751ab458fc6c2bcc1e4770, type: 2}
+  - {fileID: 11400000, guid: 47da41942cca7c945970c4127cde7af9, type: 2}
+  - {fileID: 11400000, guid: 7991668eba3e8c044ad2a0919e2cd41d, type: 2}
+  - {fileID: 11400000, guid: 7589a3074a4d7a643b25ad2de8621f81, type: 2}
+  - {fileID: 11400000, guid: 5155b5823a3bc434da503cd90082f21c, type: 2}
+  - {fileID: 11400000, guid: 15f2bfec68d28b14fa52b40e918586d7, type: 2}
+  - {fileID: 11400000, guid: c11184cdb88926d4dacfb1e6260eef2d, type: 2}
+  - {fileID: 11400000, guid: cb684ea4379c25d40859453a8de355d5, type: 2}
+  - {fileID: 11400000, guid: 86bac4d7117a7364191179b08207b4ba, type: 2}
+  - {fileID: 11400000, guid: 93409c2bf72dd1049a22e450dc00855b, type: 2}
+  - {fileID: 11400000, guid: 6e3a47ae17ca793429f51001ad5b6cc1, type: 2}
+  - {fileID: 11400000, guid: cbbd9a82559025045bfc516beaf8f95a, type: 2}
