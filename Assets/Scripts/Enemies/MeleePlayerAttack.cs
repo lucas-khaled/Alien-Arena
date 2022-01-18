@@ -26,7 +26,7 @@ namespace AlienArena.Enemies
 
         private void CheckAttack()
         {
-            float distance = Vector3.Distance(_player.transform.position, _player.transform.position);
+            float distance = Vector3.Distance(transform.position, _player.transform.position);
             if(distance < rangeAttack && attackTime >= attackRate)
                 Attack();
         }
@@ -35,6 +35,11 @@ namespace AlienArena.Enemies
         {
             _player.Damage(damage);
             attackTime = 0;
+        }
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.DrawWireSphere(transform.position, rangeAttack);
         }
     }
 }

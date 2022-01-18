@@ -36,6 +36,12 @@ namespace AlienArena.Arena
         {
             StartCoroutine(SpawnEnemiesRoutine());
             _player = Player.Player.instance;
+            _player.onDeath += PlayerDied;
+        }
+
+        private void PlayerDied()
+        {
+            SceneManager.LoadScene("Level");
         }
 
         private IEnumerator SpawnEnemiesRoutine()
@@ -76,7 +82,8 @@ namespace AlienArena.Arena
 
         private Enemy GetRandomEnemyInDataList(int index = -1, int iteractions = 0)
         {
-            index = (index < -1) ? Random.Range(0, _enemyData.Length) : 0;
+            index = (index <= -1) ? Random.Range(0, _enemyData.Length) : 0;
+            Debug.Log(index);
 
             if (iteractions >= _enemyData.Length)  return null;
 

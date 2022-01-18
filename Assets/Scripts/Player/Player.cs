@@ -11,6 +11,7 @@ namespace AlienArena.Player
             
         [SerializeField] private PlayerStats stats;
         public Action<float, string> onChangeAtrribute;
+        public Action onDeath;
 
         public PlayerStats PlayerStats => stats;
 
@@ -35,6 +36,9 @@ namespace AlienArena.Player
         {
             float value = Mathf.Clamp(stats.life - damage, 0, stats.MaxLife);
             stats.life = value;
+            
+            if(stats.life <= 0)
+                Die();
            
             onChangeAtrribute?.Invoke(stats.life, "Life");
         }
@@ -77,6 +81,11 @@ namespace AlienArena.Player
             Armor removedArmor = (Armor) removedItem;
             removedArmor.HandlePlayerStats(this, -1);
         }
-        
+
+        public void Die()
+        {
+            Destroy(gameObject);
+            onDeath?.Invoke();
+        }
     }
 }
