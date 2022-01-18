@@ -17,6 +17,7 @@ namespace AlienArena.UI
         [SerializeField] private TMP_Text damageText;
         [SerializeField] private TMP_Text velocityText;
         [SerializeField] private TMP_Text bulletsText;
+        [SerializeField] private TMP_Text fireRateText;
         [SerializeField] private TMP_Text itemNameText;
         [SerializeField] private TMP_Text priceText;
 
@@ -38,6 +39,9 @@ namespace AlienArena.UI
 
                 bulletsText.gameObject.SetActive(true);
                 bulletsText.SetText("Bullets: "+weapon.bullets);
+                
+                fireRateText.gameObject.SetActive(true);
+                fireRateText.SetText("Fire Rate: "+weapon.fireRate);
             }
             else
             {

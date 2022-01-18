@@ -8,7 +8,6 @@ namespace AlienArena.Player
     public class PlayerShooter : MonoBehaviour
     {
         [SerializeField] private Transform fireTransform;
-        [SerializeField] private float fireRate = 0.2f;
 
         private Equipper _equipper;
         private float _fireTime = 0;
@@ -29,11 +28,10 @@ namespace AlienArena.Player
 
         private void Shoot()
         {
-            if(_fireTime<fireRate) return;
-
             Weapon weapon = _equipper.GetSlotByType(typeof(Weapon)).data.item as Weapon;
-            
             if(weapon == null) return;
+            
+            if(_fireTime<weapon.fireRate) return;
 
             if (weapon.bullets <= 1)
             {

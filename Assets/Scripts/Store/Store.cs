@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using AlienArena.Itens;
+using UnityEditor;
 using UnityEngine;
 
 namespace AlienArena.Store
@@ -41,5 +42,19 @@ namespace AlienArena.Store
         {
             return itensForSale;
         }
+        
+        #if UNITY_EDITOR
+        [ContextMenu("Find All Items")]
+        private void FindItems()
+        {
+            itensForSale.Clear();
+            string[] guids = AssetDatabase.FindAssets("t: Item");
+            foreach (var guid in guids)
+            {
+                Item item = AssetDatabase.LoadAssetAtPath<Item>(AssetDatabase.GUIDToAssetPath(guid));
+                itensForSale.Add(item);
+            }
+        }
+        #endif
     }
 }

@@ -11,6 +11,7 @@ namespace AlienArena.Itens
         [Header("Weapon Data")]
         public float damage;
         [FormerlySerializedAs("projectileQuantity")] public float bullets = 1;
+        public float fireRate = 1; 
         public Projectile projectile;
         
         public override void HandleEquip(EquipSlot slot)

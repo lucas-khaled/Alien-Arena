@@ -2668,3 +2668,2207 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1776ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1485ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (527ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (556ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2724.
+Total: 6.447300 ms (FindLiveObjects: 0.542200 ms CreateObjectMapping: 0.158400 ms MarkObjects: 5.695900 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10498.762932 seconds.
+  path: Assets/ScriptableObjects/Items/Torso.asset
+  artifactKey: Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torso.asset using Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77beae2936ac105a8fee9befd5535fcb') in 0.049266 seconds 
+  Import took 0.064515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226757 seconds.
+  path: Assets/ScriptableObjects/Items/Torso.asset
+  artifactKey: Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torso.asset using Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77beae2936ac105a8fee9befd5535fcb') in 0.003580 seconds 
+  Import took 0.008832 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1883ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1570ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (562ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (583ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 6.622100 ms (FindLiveObjects: 0.629300 ms CreateObjectMapping: 0.163500 ms MarkObjects: 5.785200 ms  DeleteObjects: 0.041900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138.107484 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon 2.asset
+  artifactKey: Guid(70ffcb4ab20b93d4bbed36070ef7a0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon 2.asset using Guid(70ffcb4ab20b93d4bbed36070ef7a0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ba9d48320f8e818bd86df432c97253') in 0.025978 seconds 
+  Import took 0.032419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.332495 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon 2.asset
+  artifactKey: Guid(70ffcb4ab20b93d4bbed36070ef7a0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon 2.asset using Guid(70ffcb4ab20b93d4bbed36070ef7a0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd404db49c4d061b1c4390060c5d5f948') in 0.064933 seconds 
+  Import took 0.089449 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4476ms)
+		BeginReloadAssembly (682ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (204ms)
+		EndReloadAssembly (3243ms)
+			LoadAssemblies (655ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1427ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (918ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (646ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 7.383000 ms (FindLiveObjects: 0.546400 ms CreateObjectMapping: 0.178900 ms MarkObjects: 6.619400 ms  DeleteObjects: 0.036100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1043.551860 seconds.
+  path: Assets/ScriptableObjects/Items/Blue Head Lvl 1.asset
+  artifactKey: Guid(0c1cbb29439c3944693d5a7c12e52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Blue Head Lvl 1.asset using Guid(0c1cbb29439c3944693d5a7c12e52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7bbacf585f78bd2b0d2597c59e8cad') in 0.023678 seconds 
+  Import took 0.029170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.364755 seconds.
+  path: Assets/ScriptableObjects/Items/Red Head Lvl 1.asset
+  artifactKey: Guid(d5adc2a07126ce540a3c56a8f61d12c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Red Head Lvl 1.asset using Guid(d5adc2a07126ce540a3c56a8f61d12c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec24738926fc29561223b805a40cce9') in 0.003820 seconds 
+  Import took 0.009003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011058 seconds.
+  path: Assets/ScriptableObjects/Items/Red Head Lvl 1.asset
+  artifactKey: Guid(d5adc2a07126ce540a3c56a8f61d12c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Red Head Lvl 1.asset using Guid(d5adc2a07126ce540a3c56a8f61d12c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec24738926fc29561223b805a40cce9') in 0.016048 seconds 
+  Import took 0.021278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.180150 seconds.
+  path: Assets/ScriptableObjects/Items/Heads
+  artifactKey: Guid(b0e3e28ce7faedc4ea9782bf430a8178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads using Guid(b0e3e28ce7faedc4ea9782bf430a8178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9db3db4d201c028b9a30bc6eb2e11a') in 0.005451 seconds 
+  Import took 0.010183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.761477 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 1.asset
+  artifactKey: Guid(0c1cbb29439c3944693d5a7c12e52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 1.asset using Guid(0c1cbb29439c3944693d5a7c12e52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7798d0167e19721f3f0c2745778d743') in 0.003486 seconds 
+  Import took 0.008261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.094323 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset
+  artifactKey: Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset using Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33553c4f2653b4aec116e5d12abd4ceb') in 0.003758 seconds 
+  Import took 0.009292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010324 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset
+  artifactKey: Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset using Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33553c4f2653b4aec116e5d12abd4ceb') in 0.004759 seconds 
+  Import took 0.010028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.549516 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset
+  artifactKey: Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset using Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2578fb0e686ef887fe13ace078f9dd4d') in 0.003750 seconds 
+  Import took 0.011193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007669 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset
+  artifactKey: Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset using Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2578fb0e686ef887fe13ace078f9dd4d') in 0.003428 seconds 
+  Import took 0.008120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.784746 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 1.asset
+  artifactKey: Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 1.asset using Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe7c27634356761a87ce808c1c7cc6') in 0.004314 seconds 
+  Import took 0.009907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009809 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 1.asset
+  artifactKey: Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 1.asset using Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe7c27634356761a87ce808c1c7cc6') in 0.004496 seconds 
+  Import took 0.009747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.158117 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset
+  artifactKey: Guid(42142a019d6514244abf52a6287063ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset using Guid(42142a019d6514244abf52a6287063ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6750dea79aad982120c0ea99787a543d') in 0.003542 seconds 
+  Import took 0.009195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009677 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset
+  artifactKey: Guid(42142a019d6514244abf52a6287063ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset using Guid(42142a019d6514244abf52a6287063ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6750dea79aad982120c0ea99787a543d') in 0.004202 seconds 
+  Import took 0.009355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.344561 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset
+  artifactKey: Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset using Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ff37feaa5175ddd84ba342e7e71129') in 0.003833 seconds 
+  Import took 0.008752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010179 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset
+  artifactKey: Guid(42142a019d6514244abf52a6287063ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 2.asset using Guid(42142a019d6514244abf52a6287063ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5cc329676fe5c365a07c4c5152c291') in 0.004172 seconds 
+  Import took 0.009682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.884443 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset
+  artifactKey: Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset using Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6073c6bac708b0f0388824d548cbd71c') in 0.003872 seconds 
+  Import took 0.008818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016648 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset
+  artifactKey: Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset using Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6073c6bac708b0f0388824d548cbd71c') in 0.004478 seconds 
+  Import took 0.010044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset
+  artifactKey: Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset using Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70dbaebcde16df63a83fec1e4690119') in 0.003566 seconds 
+  Import took 0.027213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.301542 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 3.asset
+  artifactKey: Guid(12f60c3cd33261b40848db06ce814d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 3.asset using Guid(12f60c3cd33261b40848db06ce814d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c02b4ff780278066736bbbfe986997') in 0.003932 seconds 
+  Import took 0.009207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009416 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset
+  artifactKey: Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset using Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89277e4972465df19824c38959920873') in 0.004609 seconds 
+  Import took 0.010317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset
+  artifactKey: Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset using Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d06e7aff4c8f8d933572b0796ef079') in 0.004466 seconds 
+  Import took 0.015171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.112000 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset
+  artifactKey: Guid(21a5415dcad520a4f8a3067c896036e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset using Guid(21a5415dcad520a4f8a3067c896036e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fbdda3de4a4cbe28c716649e9c4904') in 0.004026 seconds 
+  Import took 0.015260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003333 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset
+  artifactKey: Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 2.asset using Guid(efa39aef8fae6d546a986d915450a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd84b194df56223c3527f015cf816a06') in 0.004190 seconds 
+  Import took 0.009254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 3.asset
+  artifactKey: Guid(12f60c3cd33261b40848db06ce814d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 3.asset using Guid(12f60c3cd33261b40848db06ce814d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96700e5f1bfaf8af9822c2e454afb18c') in 0.004185 seconds 
+  Import took 0.009118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset
+  artifactKey: Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 3.asset using Guid(bc016df9b9870fc4db77cb0d9584a9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b90280259c5895753e119581400fd7') in 0.003461 seconds 
+  Import took 0.007820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.642232 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset
+  artifactKey: Guid(21a5415dcad520a4f8a3067c896036e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset using Guid(21a5415dcad520a4f8a3067c896036e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148b6afcf395cf2ab7dbc61e4b64cfdc') in 0.003535 seconds 
+  Import took 0.017385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 3.asset
+  artifactKey: Guid(174f03e9280425c4995781f61fde5db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 3.asset using Guid(174f03e9280425c4995781f61fde5db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3064bb3a4ab6217f670a6f2c8f0b5259') in 0.003968 seconds 
+  Import took 0.009021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.769939 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 3.asset
+  artifactKey: Guid(174f03e9280425c4995781f61fde5db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 3.asset using Guid(174f03e9280425c4995781f61fde5db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41e9198ea9059f988850b36bcd988ef') in 0.004668 seconds 
+  Import took 0.010492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012660 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset
+  artifactKey: Guid(21a5415dcad520a4f8a3067c896036e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 2.asset using Guid(21a5415dcad520a4f8a3067c896036e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5f51d3bde2584904a7a0a6360d154c') in 0.004465 seconds 
+  Import took 0.011218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.972476 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos
+  artifactKey: Guid(1bcd0cbb2342534459f1d518f8f3fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos using Guid(1bcd0cbb2342534459f1d518f8f3fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8f2f64676d2521416c01d2e6e738c9') in 0.005403 seconds 
+  Import took 0.022493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.101757 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset
+  artifactKey: Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset using Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd14672c440f6d64abb9e1d0a3055be8') in 0.004119 seconds 
+  Import took 0.009596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009470 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset
+  artifactKey: Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset using Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd14672c440f6d64abb9e1d0a3055be8') in 0.003350 seconds 
+  Import took 0.008171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.345216 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset
+  artifactKey: Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset using Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359e89ef0dde22254f99cd2b0761886a') in 0.003930 seconds 
+  Import took 0.009892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009420 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset
+  artifactKey: Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset using Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359e89ef0dde22254f99cd2b0761886a') in 0.005212 seconds 
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.283542 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 1.asset
+  artifactKey: Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 1.asset using Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c665fdbf4f145cd412e5d01b1fb48322') in 0.005078 seconds 
+  Import took 0.011877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009101 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 1.asset
+  artifactKey: Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 1.asset using Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c665fdbf4f145cd412e5d01b1fb48322') in 0.003837 seconds 
+  Import took 0.009370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.681225 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset
+  artifactKey: Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset using Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c78912c30dc77f6965a555a5592c318') in 0.004003 seconds 
+  Import took 0.009133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011801 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset
+  artifactKey: Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset using Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d48a86cb67275509540a887f19d84f') in 0.004755 seconds 
+  Import took 0.010417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 1.asset
+  artifactKey: Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 1.asset using Guid(3c58de3dde9f4064ab644965fba0a5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35660c2e45fbebb854bad1f8ce1fca1') in 0.003759 seconds 
+  Import took 0.027359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.980004 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 1.asset
+  artifactKey: Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 1.asset using Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0e0404df12441f63410249e2417780') in 0.004960 seconds 
+  Import took 0.010614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011229 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 1.asset
+  artifactKey: Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 1.asset using Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0e0404df12441f63410249e2417780') in 0.003496 seconds 
+  Import took 0.008098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.179845 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset
+  artifactKey: Guid(466daf0a19094e54e8db589eced62ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset using Guid(466daf0a19094e54e8db589eced62ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92de5d55df8500d0c9b90068c5f745f2') in 0.003629 seconds 
+  Import took 0.008817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009040 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset
+  artifactKey: Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 1.asset using Guid(41f82c9ad876c90409ef6f9309683acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec72e156f672e745894473cea7e4bb33') in 0.003763 seconds 
+  Import took 0.008773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 1.asset
+  artifactKey: Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 1.asset using Guid(44d4377d80db12443b53145ef2380641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121b6ad3df57eb14719ef80817e3193d') in 0.004573 seconds 
+  Import took 0.009780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.084127 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 3.asset
+  artifactKey: Guid(37f09ad73eb12934aabe46883ece9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 3.asset using Guid(37f09ad73eb12934aabe46883ece9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493a73ae83778c6f54abada75098d9ee') in 0.003812 seconds 
+  Import took 0.008981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009987 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset
+  artifactKey: Guid(466daf0a19094e54e8db589eced62ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 2.asset using Guid(466daf0a19094e54e8db589eced62ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7d524f3d23b59b9f8dd9de731636cc') in 0.003840 seconds 
+  Import took 0.016926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.417702 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 2.asset
+  artifactKey: Guid(74c88f69a6b54ec4396561fd31c53aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 2.asset using Guid(74c88f69a6b54ec4396561fd31c53aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5465d2fe5485b9a64b4e248ca80212e') in 0.003927 seconds 
+  Import took 0.008760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011718 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 3.asset
+  artifactKey: Guid(37f09ad73eb12934aabe46883ece9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Blue Torso Lvl 3.asset using Guid(37f09ad73eb12934aabe46883ece9c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8140217adf63131ee90cb26a61607eb5') in 0.004241 seconds 
+  Import took 0.009504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.779163 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 3.asset
+  artifactKey: Guid(0b9da3a94bed5334bbb00a12474a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 3.asset using Guid(0b9da3a94bed5334bbb00a12474a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b608769d474bd37947098346ff09176') in 0.003728 seconds 
+  Import took 0.009140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011236 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 2.asset
+  artifactKey: Guid(74c88f69a6b54ec4396561fd31c53aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 2.asset using Guid(74c88f69a6b54ec4396561fd31c53aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2981fa6ee1f65bea7c0df4629b0952fe') in 0.013707 seconds 
+  Import took 0.018663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.810770 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset
+  artifactKey: Guid(e2ab5264535d30645b220613f9fb337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset using Guid(e2ab5264535d30645b220613f9fb337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f162d2312c6722fcb626bd58cc8a79c4') in 0.005109 seconds 
+  Import took 0.011015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010924 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 2.asset
+  artifactKey: Guid(74c88f69a6b54ec4396561fd31c53aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 2.asset using Guid(74c88f69a6b54ec4396561fd31c53aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48e2772a87790fe9a817e7eeed1dd75') in 0.004287 seconds 
+  Import took 0.009580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000968 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 3.asset
+  artifactKey: Guid(0b9da3a94bed5334bbb00a12474a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Green Torso Lvl 3.asset using Guid(0b9da3a94bed5334bbb00a12474a486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009f41412454b81f3fad5d40f1b87376') in 0.003883 seconds 
+  Import took 0.009084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.568019 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 3.asset
+  artifactKey: Guid(97202e538be580144a2dbf149a80404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 3.asset using Guid(97202e538be580144a2dbf149a80404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5f2789bf137b67f6e84b5074947a0d') in 0.005303 seconds 
+  Import took 0.011504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009924 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset
+  artifactKey: Guid(e2ab5264535d30645b220613f9fb337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset using Guid(e2ab5264535d30645b220613f9fb337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44071585e4abb640d6efb58495fb2c40') in 0.011037 seconds 
+  Import took 0.016465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.836886 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms
+  artifactKey: Guid(bf4fa6732b09c6b4b9539b6c636d3278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms using Guid(bf4fa6732b09c6b4b9539b6c636d3278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4a2a7e84c963ca7f083e6fd60d4617') in 0.006093 seconds 
+  Import took 0.023793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.442109 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 1.asset
+  artifactKey: Guid(b28d437353bc2be4fb66874451c97d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 1.asset using Guid(b28d437353bc2be4fb66874451c97d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6047b13670bf6a7ac4e1afbd391574cd') in 0.006075 seconds 
+  Import took 0.011416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008392 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 1.asset
+  artifactKey: Guid(b28d437353bc2be4fb66874451c97d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 1.asset using Guid(b28d437353bc2be4fb66874451c97d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6047b13670bf6a7ac4e1afbd391574cd') in 0.005132 seconds 
+  Import took 0.010729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.885044 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset
+  artifactKey: Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset using Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9a2667cfd58df0505d8e60dfe3f776') in 0.004818 seconds 
+  Import took 0.030014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004615 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 1.asset
+  artifactKey: Guid(b28d437353bc2be4fb66874451c97d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 1.asset using Guid(b28d437353bc2be4fb66874451c97d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafda031621c7cf46d9e50de6b277b3b') in 0.003690 seconds 
+  Import took 0.023107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.928958 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset
+  artifactKey: Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset using Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd435cacd218f188408a2349c6e2c9e') in 0.003891 seconds 
+  Import took 0.008613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010843 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset
+  artifactKey: Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset using Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd435cacd218f188408a2349c6e2c9e') in 0.003365 seconds 
+  Import took 0.008349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.059880 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset
+  artifactKey: Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset using Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ecde95b59c75bde128058467026d2d') in 0.004131 seconds 
+  Import took 0.023005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 4.asset
+  artifactKey: Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 4.asset using Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d0789a7ccf0402ccc228ac314c7e34') in 0.003841 seconds 
+  Import took 0.008731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001720 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset
+  artifactKey: Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset using Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ecde95b59c75bde128058467026d2d') in 0.004437 seconds 
+  Import took 0.009945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.576964 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl.asset
+  artifactKey: Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl.asset using Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1695e2174e6023519cfc4d875ec8e599') in 0.003789 seconds 
+  Import took 0.009077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010359 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl.asset
+  artifactKey: Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl.asset using Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1695e2174e6023519cfc4d875ec8e599') in 0.003928 seconds 
+  Import took 0.009061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.452462 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 1.asset
+  artifactKey: Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 1.asset using Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ab16523c82d69f347caf1ff1d2e0a') in 0.003877 seconds 
+  Import took 0.009231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009555 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 1.asset
+  artifactKey: Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 1.asset using Guid(103e5265a3a1c344f87a4c94bbe2ef20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ab16523c82d69f347caf1ff1d2e0a') in 0.004766 seconds 
+  Import took 0.009815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.876864 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset
+  artifactKey: Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset using Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c65af26e7b8e0a4be4a1876a1a9652c') in 0.004575 seconds 
+  Import took 0.009699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009226 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset
+  artifactKey: Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset using Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c65af26e7b8e0a4be4a1876a1a9652c') in 0.003921 seconds 
+  Import took 0.009523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.470663 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset
+  artifactKey: Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset using Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9145c74a524d3315e01abce646a7a26') in 0.003909 seconds 
+  Import took 0.008854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010638 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset
+  artifactKey: Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset using Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9145c74a524d3315e01abce646a7a26') in 0.003766 seconds 
+  Import took 0.009247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset
+  artifactKey: Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset using Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cebabd99fd8de1b6dd6de66d97b1c9') in 0.003578 seconds 
+  Import took 0.009094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.460636 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 3.asset
+  artifactKey: Guid(10cd7cd7549b1254681c5c7f95d34efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 3.asset using Guid(10cd7cd7549b1254681c5c7f95d34efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9077ba8e9204c7121c54c21d631d2696') in 0.003821 seconds 
+  Import took 0.018062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset
+  artifactKey: Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset using Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a801a6303a40a18ff410ba730eb1bd') in 0.004250 seconds 
+  Import took 0.008835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.576513 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 2.asset
+  artifactKey: Guid(d77d93b4a36414145a0c6b430d44326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 2.asset using Guid(d77d93b4a36414145a0c6b430d44326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bae34bbc2817cae62b056e444148d9') in 0.004360 seconds 
+  Import took 0.009765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011110 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 3.asset
+  artifactKey: Guid(10cd7cd7549b1254681c5c7f95d34efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 3.asset using Guid(10cd7cd7549b1254681c5c7f95d34efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff44529873177f7b76a7c8e7767a4446') in 0.004661 seconds 
+  Import took 0.010490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.525833 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset
+  artifactKey: Guid(1d7b974a273a1ce469383439276046ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset using Guid(1d7b974a273a1ce469383439276046ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3035889cb3fb2aaa23b346b23f7581') in 0.003794 seconds 
+  Import took 0.009150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014115 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 2.asset
+  artifactKey: Guid(d77d93b4a36414145a0c6b430d44326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 2.asset using Guid(d77d93b4a36414145a0c6b430d44326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d80ecdc4799cd552541a7f4af9fb1e7') in 0.004368 seconds 
+  Import took 0.009754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.718853 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 2.asset
+  artifactKey: Guid(0ba61f3c1768f2d40b51637f784c355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 2.asset using Guid(0ba61f3c1768f2d40b51637f784c355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784366762d526f4bdd4e245c78e01a8b') in 0.004359 seconds 
+  Import took 0.009891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008985 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset
+  artifactKey: Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 2.asset using Guid(30ac92445e4c8c542b8076b43c7a9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45faf8010d65cf8771ea017fbc7de42f') in 0.006129 seconds 
+  Import took 0.011720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 3.asset
+  artifactKey: Guid(10cd7cd7549b1254681c5c7f95d34efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Blue Left Arm Lvl 3.asset using Guid(10cd7cd7549b1254681c5c7f95d34efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31133dfe17c2dc904059071bbccde985') in 0.003671 seconds 
+  Import took 0.009000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset
+  artifactKey: Guid(1d7b974a273a1ce469383439276046ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 3.asset using Guid(1d7b974a273a1ce469383439276046ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b8ec2b262cc68d710681b7a63f5191') in 0.003283 seconds 
+  Import took 0.007234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset
+  artifactKey: Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 1.asset using Guid(77abc52df5eb5f44d9013028d0690ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec04a8f348f4d6d29f85fff361de22') in 0.003535 seconds 
+  Import took 0.007557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 2.asset
+  artifactKey: Guid(d77d93b4a36414145a0c6b430d44326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Green Left Arm Lvl 2.asset using Guid(d77d93b4a36414145a0c6b430d44326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff458592867227d2a9f63f947abe01d') in 0.003334 seconds 
+  Import took 0.007960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.687262 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 3.asset
+  artifactKey: Guid(8e31fcf357ff3ad428daa3dc7cb72279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 3.asset using Guid(8e31fcf357ff3ad428daa3dc7cb72279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4052d5536315e13bb89a573cf3dcabd0') in 0.004829 seconds 
+  Import took 0.010722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011504 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 2.asset
+  artifactKey: Guid(0ba61f3c1768f2d40b51637f784c355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 2.asset using Guid(0ba61f3c1768f2d40b51637f784c355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605db2118c2cb47a6f2e124bcc399a37') in 0.004695 seconds 
+  Import took 0.011458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.850216 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms 1
+  artifactKey: Guid(40bda9c43a5c50f4ba0128d5d591b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms 1 using Guid(40bda9c43a5c50f4ba0128d5d591b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8ab41893a6cfa89bcd7dab7256449d') in 0.003103 seconds 
+  Import took 0.008280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.047595 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms
+  artifactKey: Guid(40bda9c43a5c50f4ba0128d5d591b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms using Guid(40bda9c43a5c50f4ba0128d5d591b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d70d3a5a13eac9735ccbcb8cf836646') in 0.002880 seconds 
+  Import took 0.007626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.337116 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Left Arm Lvl 1.asset
+  artifactKey: Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Left Arm Lvl 1.asset using Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fbac4d9eaa5b1bd943b8fbf41a69af') in 0.003430 seconds 
+  Import took 0.008952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Left Arm Lvl 3.asset
+  artifactKey: Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Left Arm Lvl 3.asset using Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c48c9f9ebce96aaa436e21b3ebdb17') in 0.003451 seconds 
+  Import took 0.007509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Left Arm Lvl 1.asset
+  artifactKey: Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Left Arm Lvl 1.asset using Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a187ecac3f8fa0817cb6d2cf218a426') in 0.003430 seconds 
+  Import took 0.022436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Left Arm Lvl 2.asset
+  artifactKey: Guid(3a96ff85208389c44883c24ec670e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Left Arm Lvl 2.asset using Guid(3a96ff85208389c44883c24ec670e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c5338c754e0cd2bea2e7c4100436f8') in 0.004196 seconds 
+  Import took 0.009015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Left Arm Lvl 2.asset
+  artifactKey: Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Left Arm Lvl 2.asset using Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f199c8e4f1b129c6605f3a0f1cb0e570') in 0.003436 seconds 
+  Import took 0.007996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Left Arm Lvl 3.asset
+  artifactKey: Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Left Arm Lvl 3.asset using Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d294752658ef0c2320fcdcf1665cdde') in 0.003365 seconds 
+  Import took 0.007295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Left Arm Lvl 1.asset
+  artifactKey: Guid(fcf8ef6dbb0c6064888ffe8b417f3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Left Arm Lvl 1.asset using Guid(fcf8ef6dbb0c6064888ffe8b417f3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20a7b54677aec28a2a8c036c5e9ca44') in 0.003613 seconds 
+  Import took 0.008145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Left Arm Lvl 3.asset
+  artifactKey: Guid(a9f06b88b3d8d454daa3dd1655b4dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Left Arm Lvl 3.asset using Guid(a9f06b88b3d8d454daa3dd1655b4dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4976d89fa55d0b4d09a58bed9d8e98ef') in 0.003944 seconds 
+  Import took 0.008888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Left Arm Lvl 2.asset
+  artifactKey: Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Left Arm Lvl 2.asset using Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa68a01724aa99cdc6ae25268a5078b') in 0.003764 seconds 
+  Import took 0.008675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.521306 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 1.asset
+  artifactKey: Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 1.asset using Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5679d21208c6fbd15fd943d0cbd7fb8a') in 0.004431 seconds 
+  Import took 0.009931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011844 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 1.asset
+  artifactKey: Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 1.asset using Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5679d21208c6fbd15fd943d0cbd7fb8a') in 0.004706 seconds 
+  Import took 0.010261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.662698 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 3.asset
+  artifactKey: Guid(a9f06b88b3d8d454daa3dd1655b4dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 3.asset using Guid(a9f06b88b3d8d454daa3dd1655b4dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c56b086c9dbc43fcff0ebbeb12a4d9') in 0.003765 seconds 
+  Import took 0.008599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010992 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 3.asset
+  artifactKey: Guid(a9f06b88b3d8d454daa3dd1655b4dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 3.asset using Guid(a9f06b88b3d8d454daa3dd1655b4dae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c56b086c9dbc43fcff0ebbeb12a4d9') in 0.003875 seconds 
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.456141 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 2.asset
+  artifactKey: Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 2.asset using Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71d7e3bfc80792eefe3cce70cbb73c5') in 0.004316 seconds 
+  Import took 0.009794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011103 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 2.asset
+  artifactKey: Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 2.asset using Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71d7e3bfc80792eefe3cce70cbb73c5') in 0.004146 seconds 
+  Import took 0.009453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.502570 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 1.asset
+  artifactKey: Guid(fcf8ef6dbb0c6064888ffe8b417f3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 1.asset using Guid(fcf8ef6dbb0c6064888ffe8b417f3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cdd43626c5cf5444f0603bb5076bbe') in 0.003720 seconds 
+  Import took 0.008534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012511 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 1.asset
+  artifactKey: Guid(fcf8ef6dbb0c6064888ffe8b417f3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 1.asset using Guid(fcf8ef6dbb0c6064888ffe8b417f3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cdd43626c5cf5444f0603bb5076bbe') in 0.003891 seconds 
+  Import took 0.008705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.914300 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 2.asset
+  artifactKey: Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 2.asset using Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982f2f3c4cd05d77a4ac890262b8b529') in 0.004378 seconds 
+  Import took 0.010999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013547 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 2.asset
+  artifactKey: Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 2.asset using Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982f2f3c4cd05d77a4ac890262b8b529') in 0.004945 seconds 
+  Import took 0.011944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.307664 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 3.asset
+  artifactKey: Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 3.asset using Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27b7bd8f0b177bf69d63187135a1b9e') in 0.003917 seconds 
+  Import took 0.009286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010771 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 3.asset
+  artifactKey: Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 3.asset using Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27b7bd8f0b177bf69d63187135a1b9e') in 0.022316 seconds 
+  Import took 0.027779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.293537 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 1.asset
+  artifactKey: Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 1.asset using Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d4d840649c3b026ece81258447e148') in 0.003919 seconds 
+  Import took 0.008766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019435 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 1.asset
+  artifactKey: Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 1.asset using Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d4d840649c3b026ece81258447e148') in 0.004211 seconds 
+  Import took 0.010233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.438382 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 2.asset
+  artifactKey: Guid(3a96ff85208389c44883c24ec670e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 2.asset using Guid(3a96ff85208389c44883c24ec670e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2516fbc72e943a79d30ea80c899cd0ce') in 0.004370 seconds 
+  Import took 0.041548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.941142 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 3.asset
+  artifactKey: Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 3.asset using Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59a155f6563c9dc127153a176549470') in 0.004401 seconds 
+  Import took 0.009626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010658 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 3.asset
+  artifactKey: Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 3.asset using Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59a155f6563c9dc127153a176549470') in 0.003864 seconds 
+  Import took 0.009299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.675954 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 3.asset
+  artifactKey: Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 3.asset using Guid(43aa1b1a216c98742826f1c36f817039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c5f98a4e6750fa5807e4f86ab6e74e') in 0.004240 seconds 
+  Import took 0.010692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006782 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 1.asset
+  artifactKey: Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 1.asset using Guid(f9ce40fbfdf207d44b9851e41a252c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f21ce6e1b8b62ce8c3629ac3fc5f5ee') in 0.003880 seconds 
+  Import took 0.009297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 3.asset
+  artifactKey: Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 3.asset using Guid(75cee7dfc15bba5489b83aa95541840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a681ca71ea44137515c77021393c6c0a') in 0.004130 seconds 
+  Import took 0.009019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 1.asset
+  artifactKey: Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 1.asset using Guid(bacb02ea57fd5e243bff5ecc82ddef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972887154c6faca9f5599d4721ba9307') in 0.004089 seconds 
+  Import took 0.008818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 2.asset
+  artifactKey: Guid(3a96ff85208389c44883c24ec670e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Red Right Arm Lvl 2.asset using Guid(3a96ff85208389c44883c24ec670e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0573b7a319e0dc74953ce8ffe83860b') in 0.003668 seconds 
+  Import took 0.007930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 2.asset
+  artifactKey: Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Blue Right Arm Lvl 2.asset using Guid(937deb10ce7b04c4d931cb912a7728be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062652fafab0e635a4979527d6ff900d') in 0.003659 seconds 
+  Import took 0.007923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 2.asset
+  artifactKey: Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/RightArms/Green Right Arm Lvl 2.asset using Guid(d90c35048bb131f42be9d56aa5da6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4959093f1b5cea1cba334db3f92d92') in 0.004019 seconds 
+  Import took 0.009087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.453442 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon
+  artifactKey: Guid(9be2a9f1159cc334ea9328be099fd581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon using Guid(9be2a9f1159cc334ea9328be099fd581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef55ca194818657e732b14dbbfa5096c') in 0.006209 seconds 
+  Import took 0.012053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.431004 seconds.
+  path: Assets/Prefabs/Projectile/Blue_Projectile.prefab
+  artifactKey: Guid(e616f4562d9613044abc26e1bfd3a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Blue_Projectile.prefab using Guid(e616f4562d9613044abc26e1bfd3a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79781fadfbadd67a10263c84c4a6eb7e') in 0.304306 seconds 
+  Import took 0.319109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.890275 seconds.
+  path: Assets/Prefabs/Projectile/Red_Bullet.prefab
+  artifactKey: Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Red_Bullet.prefab using Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175230e9cdb27fac3f12511ba2e5561') in 0.020738 seconds 
+  Import took 0.026629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007973 seconds.
+  path: Assets/Prefabs/Projectile/Red_Bullet.prefab
+  artifactKey: Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Red_Bullet.prefab using Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175230e9cdb27fac3f12511ba2e5561') in 0.018340 seconds 
+  Import took 0.023984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.430782 seconds.
+  path: Assets/Prefabs/Projectile/Blue_Bullet.prefab
+  artifactKey: Guid(e616f4562d9613044abc26e1bfd3a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Blue_Bullet.prefab using Guid(e616f4562d9613044abc26e1bfd3a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d7f7e75a13ab45b2af24b2eb64bdf4') in 0.020733 seconds 
+  Import took 0.026460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005052 seconds.
+  path: Assets/Prefabs/Projectile/Blue_Bullet.prefab
+  artifactKey: Guid(e616f4562d9613044abc26e1bfd3a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Blue_Bullet.prefab using Guid(e616f4562d9613044abc26e1bfd3a7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d7f7e75a13ab45b2af24b2eb64bdf4') in 0.018717 seconds 
+  Import took 0.025594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.162575 seconds.
+  path: Assets/Prefabs/Projectile/Yellow_Projectile.prefab
+  artifactKey: Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Yellow_Projectile.prefab using Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2029b1abec703e5943c18ad8b4f5c63d') in 0.017416 seconds 
+  Import took 0.023307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013333 seconds.
+  path: Assets/Prefabs/Projectile/Yellow_Projectile.prefab
+  artifactKey: Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Yellow_Projectile.prefab using Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2029b1abec703e5943c18ad8b4f5c63d') in 0.019581 seconds 
+  Import took 0.026231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.821101 seconds.
+  path: Assets/Prefabs/Projectile/Purple_Projectile.prefab
+  artifactKey: Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Purple_Projectile.prefab using Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dca4c0d41e073a0293fcaab533447f1') in 0.020821 seconds 
+  Import took 0.026925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020986 seconds.
+  path: Assets/Prefabs/Projectile/Purple_Projectile.prefab
+  artifactKey: Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Purple_Projectile.prefab using Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dca4c0d41e073a0293fcaab533447f1') in 0.019013 seconds 
+  Import took 0.025284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.748320 seconds.
+  path: Assets/Prefabs/Projectile/Orange_Projectile.prefab
+  artifactKey: Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Orange_Projectile.prefab using Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b72bfe34e9ebe10c0bb0b3529774d4') in 0.017419 seconds 
+  Import took 0.022667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012647 seconds.
+  path: Assets/Prefabs/Projectile/Orange_Projectile.prefab
+  artifactKey: Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Orange_Projectile.prefab using Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b72bfe34e9ebe10c0bb0b3529774d4') in 0.019456 seconds 
+  Import took 0.025078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.000116 seconds.
+  path: Assets/Prefabs/Projectile/Missile 1.prefab
+  artifactKey: Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Missile 1.prefab using Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29215f5917ee594a536e3942651fc1ad') in 0.019354 seconds 
+  Import took 0.024470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002820 seconds.
+  path: Assets/Prefabs/Projectile/Missile 1.prefab
+  artifactKey: Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Missile 1.prefab using Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29215f5917ee594a536e3942651fc1ad') in 0.017859 seconds 
+  Import took 0.023231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.567413 seconds.
+  path: Assets/Prefabs/Projectile/Orange_Projectile.prefab
+  artifactKey: Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Orange_Projectile.prefab using Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e67109307f2497c1bb1ac8e93937ddc') in 0.019829 seconds 
+  Import took 0.025794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002655 seconds.
+  path: Assets/Prefabs/Projectile/Orange_Projectile.prefab
+  artifactKey: Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Orange_Projectile.prefab using Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e67109307f2497c1bb1ac8e93937ddc') in 0.021122 seconds 
+  Import took 0.027100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.303153 seconds.
+  path: Assets/Prefabs/Projectile/Purple_Projectile.prefab
+  artifactKey: Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Purple_Projectile.prefab using Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110e773229d222d5f1133f707b54fd5e') in 0.057765 seconds 
+  Import took 0.071992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.050724 seconds.
+  path: Assets/Prefabs/Projectile/Yellow_Projectile.prefab
+  artifactKey: Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Yellow_Projectile.prefab using Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf6acd2e43123726c220102fe574651') in 0.017455 seconds 
+  Import took 0.023021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002406 seconds.
+  path: Assets/Prefabs/Projectile/Yellow_Projectile.prefab
+  artifactKey: Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Yellow_Projectile.prefab using Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf6acd2e43123726c220102fe574651') in 0.020675 seconds 
+  Import took 0.026505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.689637 seconds.
+  path: Assets/Prefabs/Projectile/Orange_Projectile.prefab
+  artifactKey: Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Orange_Projectile.prefab using Guid(89b115d89f1610e4bb7f533dd1b9e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f5231ec1470fd0b1ee8e85bb8722dd') in 0.020271 seconds 
+  Import took 0.026189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.523606 seconds.
+  path: Assets/Prefabs/Projectile/Purple_Projectile.prefab
+  artifactKey: Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Purple_Projectile.prefab using Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d7cdefff5019fc0e171705f1f76478') in 0.025435 seconds 
+  Import took 0.031804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.785816 seconds.
+  path: Assets/Prefabs/Projectile/Purple_Projectile.prefab
+  artifactKey: Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Purple_Projectile.prefab using Guid(483a0be66440e524fa3e6b9764c0f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf3652416bb14728fa14ff0f62a63b2') in 0.024814 seconds 
+  Import took 0.031968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.045723 seconds.
+  path: Assets/Prefabs/Projectile/Red_Bullet.prefab
+  artifactKey: Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Red_Bullet.prefab using Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e41861f5e688e47e39a3d029c2aef5') in 0.020527 seconds 
+  Import took 0.027528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.993696 seconds.
+  path: Assets/Prefabs/Projectile/Red_Bullet.prefab
+  artifactKey: Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Red_Bullet.prefab using Guid(8cf21ae6970a9fb489320eb016efec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcac6c080e8812799bad44ecb5b97dc') in 0.024031 seconds 
+  Import took 0.031029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.869521 seconds.
+  path: Assets/Prefabs/Projectile/Yellow_Projectile.prefab
+  artifactKey: Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Yellow_Projectile.prefab using Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef0d988177c4f919ba58a8a7c9ea31b') in 0.032143 seconds 
+  Import took 0.039003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.984555 seconds.
+  path: Assets/Prefabs/Projectile/Yellow_Projectile.prefab
+  artifactKey: Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Yellow_Projectile.prefab using Guid(72b4c9274ea7abd45bae5c82107d1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695ebeb74d82ff1492f2aad8c6665df7') in 0.029559 seconds 
+  Import took 0.036716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.937955 seconds.
+  path: Assets/Prefabs/Projectile/Missile 1.prefab
+  artifactKey: Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Missile 1.prefab using Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6cd64bb4d63338e1d450d23e3eb766') in 0.018146 seconds 
+  Import took 0.023380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.393962 seconds.
+  path: Assets/Prefabs/Projectile/Missile 1.prefab
+  artifactKey: Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Missile 1.prefab using Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d269356018f7631041df48b7208b5cb') in 0.017514 seconds 
+  Import took 0.041598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.216615 seconds.
+  path: Assets/Prefabs/Projectile/Missile 1.prefab
+  artifactKey: Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile/Missile 1.prefab using Guid(a8fb0a3bf045a6943941d47358bfa714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29553871654a11088dcd9cb2cead6db') in 0.023558 seconds 
+  Import took 0.029406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.777015 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset
+  artifactKey: Guid(e2ab5264535d30645b220613f9fb337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 2.asset using Guid(e2ab5264535d30645b220613f9fb337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e372c9ecc568038beda7ae3b38ac9067') in 0.003857 seconds 
+  Import took 0.009010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 3.asset
+  artifactKey: Guid(97202e538be580144a2dbf149a80404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Torsos/Red Torso Lvl 3.asset using Guid(97202e538be580144a2dbf149a80404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da09a3b47c4e27788fcc1cda1b20e31f') in 0.003427 seconds 
+  Import took 0.007680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.036569 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 1.asset
+  artifactKey: Guid(c7def4a4cecfe3b47b5266c7e1df13fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 1.asset using Guid(c7def4a4cecfe3b47b5266c7e1df13fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e2b32885d9cabf80133b0602bb043') in 0.013614 seconds 
+  Import took 0.019162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001114 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 1.asset
+  artifactKey: Guid(c7def4a4cecfe3b47b5266c7e1df13fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 1.asset using Guid(c7def4a4cecfe3b47b5266c7e1df13fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e2b32885d9cabf80133b0602bb043') in 0.024993 seconds 
+  Import took 0.029978 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.098782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1834ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1522ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (536ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2740.
+Total: 4.977100 ms (FindLiveObjects: 0.468900 ms CreateObjectMapping: 0.130000 ms MarkObjects: 4.349000 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2131ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1771ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (667ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (485ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 7.413200 ms (FindLiveObjects: 0.603000 ms CreateObjectMapping: 0.164700 ms MarkObjects: 6.603300 ms  DeleteObjects: 0.039900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208.471437 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset
+  artifactKey: Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset using Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfd7756eca40ff849054c397dddb94a') in 0.038983 seconds 
+  Import took 0.045201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 1.asset
+  artifactKey: Guid(c7def4a4cecfe3b47b5266c7e1df13fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 1.asset using Guid(c7def4a4cecfe3b47b5266c7e1df13fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473eea4972b40b7df5dcc62c42cdfce5') in 0.011269 seconds 
+  Import took 0.016333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset
+  artifactKey: Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset using Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfd7756eca40ff849054c397dddb94a') in 0.011540 seconds 
+  Import took 0.017512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.499451 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 3.asset
+  artifactKey: Guid(fe6a2e453ea50404181cfe86c9956379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 3.asset using Guid(fe6a2e453ea50404181cfe86c9956379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cccfe9cdf293a6a83b036108090e563') in 0.010244 seconds 
+  Import took 0.016012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007955 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset
+  artifactKey: Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset using Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465d7d682cf12b4707e95940b403e490') in 0.011398 seconds 
+  Import took 0.017112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.252382 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 4.asset
+  artifactKey: Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 4.asset using Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3981b5646fcaed6d5e4c036080b86d3d') in 0.013073 seconds 
+  Import took 0.020449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003496 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset
+  artifactKey: Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 2.asset using Guid(9e4f8d15bcead8b489420797f003c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f139f14ce3eb1120d34b03caa2b407f') in 0.013156 seconds 
+  Import took 0.019221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 3.asset
+  artifactKey: Guid(fe6a2e453ea50404181cfe86c9956379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Blue Weapn Lvl 3.asset using Guid(fe6a2e453ea50404181cfe86c9956379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1431182e7dd8a89af44cd0c960543035') in 0.010665 seconds 
+  Import took 0.016496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.367341 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset
+  artifactKey: Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset using Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9030509b4d086ca6fd70aadfdec14d0a') in 0.010956 seconds 
+  Import took 0.016869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005981 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset
+  artifactKey: Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset using Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9030509b4d086ca6fd70aadfdec14d0a') in 0.009757 seconds 
+  Import took 0.015083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.972671 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset
+  artifactKey: Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset using Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddbce9b31b21be4c89979edc9945452') in 0.025247 seconds 
+  Import took 0.045437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 2.asset
+  artifactKey: Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 2.asset using Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264301a76923ab8edd2963351066a773') in 0.009962 seconds 
+  Import took 0.015323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset
+  artifactKey: Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset using Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddbce9b31b21be4c89979edc9945452') in 0.010521 seconds 
+  Import took 0.015896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.880502 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 2.asset
+  artifactKey: Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 2.asset using Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49a1eaa658b21aa29d76c38c14d72f2') in 0.010226 seconds 
+  Import took 0.017381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004904 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset
+  artifactKey: Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 1.asset using Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b1744f2a6eee63d96ff2109e1065a1') in 0.010494 seconds 
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 3.asset
+  artifactKey: Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapn Lvl 3.asset using Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd612f2b549cfcb650faa2c5b692f7d') in 0.009464 seconds 
+  Import took 0.014267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.746924 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 1.asset
+  artifactKey: Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 1.asset using Guid(85e7e689fda54384dadb7190b0a7257e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c324455e27553dbb6bdc42afeeea90f9') in 0.010772 seconds 
+  Import took 0.017352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.607148 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset
+  artifactKey: Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset using Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236dfb4ae621fd4018c69dc1440aafa7') in 0.009747 seconds 
+  Import took 0.015312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016852 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset
+  artifactKey: Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset using Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236dfb4ae621fd4018c69dc1440aafa7') in 0.039144 seconds 
+  Import took 0.045065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.562849 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 3.asset
+  artifactKey: Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 3.asset using Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d5b3682e19df6b238603434dae8e69') in 0.033748 seconds 
+  Import took 0.042703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.075518 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 4.asset
+  artifactKey: Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 4.asset using Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a708363661a3264037e05c5d41a30894') in 0.014707 seconds 
+  Import took 0.022267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013375 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 4.asset
+  artifactKey: Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 4.asset using Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a708363661a3264037e05c5d41a30894') in 0.011954 seconds 
+  Import took 0.018064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.132742 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset
+  artifactKey: Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset using Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64896908461ec7b859cd71d2d877540d') in 0.011080 seconds 
+  Import took 0.016483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005084 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset
+  artifactKey: Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset using Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64896908461ec7b859cd71d2d877540d') in 0.009544 seconds 
+  Import took 0.015821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.855632 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 2.asset
+  artifactKey: Guid(87dece40039501540a182be79badbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 2.asset using Guid(87dece40039501540a182be79badbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b82fb2e9dfb4a89a7db2bd1c7047293') in 0.010260 seconds 
+  Import took 0.015553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006592 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset
+  artifactKey: Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset using Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698b1207c40dd69647d6ff9810e39ba4') in 0.010770 seconds 
+  Import took 0.016551 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1886ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1570ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (579ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2746.
+Total: 7.861100 ms (FindLiveObjects: 0.634900 ms CreateObjectMapping: 0.195700 ms MarkObjects: 6.980500 ms  DeleteObjects: 0.047700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2454ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2052ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (703ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2749.
+Total: 9.182100 ms (FindLiveObjects: 0.673300 ms CreateObjectMapping: 2.178400 ms MarkObjects: 6.289900 ms  DeleteObjects: 0.038600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 552.108814 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/-Red Weapon Lvl 3.asset
+  artifactKey: Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/-Red Weapon Lvl 3.asset using Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744c196352511f65bdce39fee1a9e327') in 0.029352 seconds 
+  Import took 0.035302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.890417 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 3.asset
+  artifactKey: Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 3.asset using Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5179b8a9067b8fbe41a4819fb476b5d2') in 0.016006 seconds 
+  Import took 0.023812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005659 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 3.asset
+  artifactKey: Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 3.asset using Guid(f0a04d988f5ae0c4da21ca2e9a82bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5179b8a9067b8fbe41a4819fb476b5d2') in 0.017257 seconds 
+  Import took 0.026881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.055958 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset
+  artifactKey: Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset using Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ed671b478ccd85ca009f4c490058ad') in 0.008615 seconds 
+  Import took 0.013942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010099 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset
+  artifactKey: Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Red Weapon Lvl 2.asset using Guid(f4166ce1ea7ef2440863443cadc4c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ed671b478ccd85ca009f4c490058ad') in 0.010577 seconds 
+  Import took 0.016414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.256701 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 3.asset
+  artifactKey: Guid(14c260339ec4dc040ba41e32e32c3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 3.asset using Guid(14c260339ec4dc040ba41e32e32c3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff692096321eaf71fa2b60aac7ae9003') in 0.010838 seconds 
+  Import took 0.016177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007340 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset
+  artifactKey: Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 1.asset using Guid(23ede25e0ae72a8478ceaa77dec3d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cd92d20dde3071a4f47fc03c81d1cd') in 0.011061 seconds 
+  Import took 0.027268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 2.asset
+  artifactKey: Guid(87dece40039501540a182be79badbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 2.asset using Guid(87dece40039501540a182be79badbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5685e1a8c055c77443bdb0ed436250f1') in 0.008806 seconds 
+  Import took 0.014797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.281865 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 3.asset
+  artifactKey: Guid(14c260339ec4dc040ba41e32e32c3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 3.asset using Guid(14c260339ec4dc040ba41e32e32c3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df77ee2b1b2c146f3d5855df316a98aa') in 0.014081 seconds 
+  Import took 0.022175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003723 seconds.
+  path: Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 3.asset
+  artifactKey: Guid(14c260339ec4dc040ba41e32e32c3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Weapon/Green Weapon Lvl 3.asset using Guid(14c260339ec4dc040ba41e32e32c3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df77ee2b1b2c146f3d5855df316a98aa') in 0.013880 seconds 
+  Import took 0.019839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.979695 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 1.asset
+  artifactKey: Guid(0c1cbb29439c3944693d5a7c12e52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Blue Head Lvl 1.asset using Guid(0c1cbb29439c3944693d5a7c12e52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaad01c06faa4af32bc8117eb74902f') in 0.025565 seconds 
+  Import took 0.030709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000869 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Green Head Lvl 1.asset
+  artifactKey: Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Green Head Lvl 1.asset using Guid(c97975e0491fe994ea3fb60078129de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b91636c3dd58eadee8dc07b1a68886') in 0.012170 seconds 
+  Import took 0.016824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/ScriptableObjects/Items/Heads/Red Head Lvl 1.asset
+  artifactKey: Guid(d5adc2a07126ce540a3c56a8f61d12c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/Heads/Red Head Lvl 1.asset using Guid(d5adc2a07126ce540a3c56a8f61d12c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334a1a116a88bef5f08ac1a6aacb88b8') in 0.003731 seconds 
+  Import took 0.015266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.514273 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 2.asset
+  artifactKey: Guid(0ba61f3c1768f2d40b51637f784c355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 2.asset using Guid(0ba61f3c1768f2d40b51637f784c355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917f5706e535ead841fad5a1e972c1ae') in 0.004516 seconds 
+  Import took 0.011945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 3.asset
+  artifactKey: Guid(8e31fcf357ff3ad428daa3dc7cb72279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Items/LeftArms/Red Left Arm Lvl 3.asset using Guid(8e31fcf357ff3ad428daa3dc7cb72279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db3cd10c1cef554ae30cc7128046485') in 0.004916 seconds 
+  Import took 0.031527 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3751ms)
+		BeginReloadAssembly (1085ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (2212ms)
+			LoadAssemblies (1017ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (683ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (960ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (516ms)
+				ProcessInitializeOnLoadMethodAttributes (270ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (50ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2752.
+Total: 8.281300 ms (FindLiveObjects: 0.625300 ms CreateObjectMapping: 0.185600 ms MarkObjects: 7.405500 ms  DeleteObjects: 0.062300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2025ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1692ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (651ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2755.
+Total: 7.825500 ms (FindLiveObjects: 0.617500 ms CreateObjectMapping: 0.189700 ms MarkObjects: 6.964300 ms  DeleteObjects: 0.051600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5159ms)
+		BeginReloadAssembly (1654ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (966ms)
+		EndReloadAssembly (3273ms)
+			LoadAssemblies (536ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1081ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (383ms)
+			SetupLoadedEditorAssemblies (930ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2758.
+Total: 8.813800 ms (FindLiveObjects: 0.586700 ms CreateObjectMapping: 0.158300 ms MarkObjects: 8.031600 ms  DeleteObjects: 0.035000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1107.226558 seconds.
+  path: Assets/ScriptableObjects/Stores/Store.asset
+  artifactKey: Guid(fa3d44a16dc61be49b559f411f77d1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Stores/Store.asset using Guid(fa3d44a16dc61be49b559f411f77d1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d859f0be41fe9668d8720f2a839b15b') in 0.056628 seconds 
+  Import took 0.078506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.351509 seconds.
+  path: Assets/ScriptableObjects/EquipData/RightArmData.asset
+  artifactKey: Guid(5f6f2d9af926db145b07af2c4b51710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/EquipData/RightArmData.asset using Guid(5f6f2d9af926db145b07af2c4b51710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7057876185fb8a88e89bd60ffbbcc1b') in 0.004505 seconds 
+  Import took 0.025170 seconds .
+
