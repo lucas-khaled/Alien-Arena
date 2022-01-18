@@ -22,6 +22,7 @@ namespace AlienArena
         [SerializeField] private GameObject inventoryPanel;
         [SerializeField] private GameObject storePanel;
         [SerializeField] private GameObject arenaUIPanel;
+        [SerializeField] private GameObject equipPanel;
         
 
         public Action<Store.Store> onInventoryOpen; 
@@ -38,6 +39,7 @@ namespace AlienArena
 
             List<string> panels = new List<string>();
             panels.Add("Inventory");
+            panels.Add("Equip");
             
             if(store != null)
                 panels.Add("Switch");
@@ -50,7 +52,7 @@ namespace AlienArena
         public void OpenStore(Store.Store store)
         {
             onStoreOpen?.Invoke(store, _playerRef);
-            OpenPanels("Store", "Switch");
+            OpenPanels("Store", "Switch", "Equip");
             
             Time.timeScale = 0;
             _openedStore = store;
@@ -93,6 +95,7 @@ namespace AlienArena
             inventoryPanel.SetActive(panelNames.Contains("Inventory"));
             arenaUIPanel.SetActive(panelNames.Contains("Arena"));
             switchToggleGroup.gameObject.SetActive(panelNames.Contains("Switch"));
+            equipPanel.gameObject.SetActive(panelNames.Contains("Equip"));
             
             pauseMenuPanel.SetActive(true);
         }
