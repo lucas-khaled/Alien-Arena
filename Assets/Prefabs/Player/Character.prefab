@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 586045743473756978}
   m_Layer: 3
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireTransform: {fileID: 586045744476616253}
-  fireRate: 2
+  energyUsage: 5
 --- !u!61 &586045743473756988
 BoxCollider2D:
   m_ObjectHideFlags: 0

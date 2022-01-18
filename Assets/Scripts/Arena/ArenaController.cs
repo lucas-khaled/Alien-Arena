@@ -11,6 +11,7 @@ namespace AlienArena.Arena
 {
     public class ArenaController : MonoBehaviour
     {
+        [SerializeField] private GameObject recharger;
         [SerializeField] private ArenaSettings settings;
         [SerializeField] private Transform[] spawnPoints;
         [SerializeField] private float startDelay = 2;
@@ -37,6 +38,17 @@ namespace AlienArena.Arena
             StartCoroutine(SpawnEnemiesRoutine());
             _player = Player.Player.instance;
             _player.onDeath += PlayerDied;
+
+            SpawnRechargers();
+        }
+
+        private void SpawnRechargers()
+        {
+            foreach (var spawn in spawnPoints)
+            {
+                Instantiate(recharger, spawn.position, quaternion.identity);
+            }
+            
         }
 
         private void PlayerDied()
@@ -83,7 +95,7 @@ namespace AlienArena.Arena
         private Enemy GetRandomEnemyInDataList(int index = -1, int iteractions = 0)
         {
             int realIndex = (index <= -1) ? Random.Range(0, _enemyData.Length) : index;
-            Debug.Log("Real: "+realIndex+" --- Index: "+index+" --- Iteractions: "+iteractions);
+            //Debug.Log("Real: "+realIndex+" --- Index: "+index+" --- Iteractions: "+iteractions);
 
             if (iteractions > _enemyData.Length)  return null;
 

@@ -28,7 +28,7 @@ namespace AlienArena.Player
 
         public void UseEnergy(float usage)
         {
-            stats.energy -= usage;
+            stats.energy = Mathf.Clamp(stats.energy - usage, 0, stats.MaxEnergy);
             onChangeAtrribute?.Invoke(stats.energy,"Energy");
         }
 

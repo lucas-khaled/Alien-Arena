@@ -434,6 +434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e742caa15940448f6dd60cb3b75943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  recharger: {fileID: 287104411385184840, guid: b9f091ae79289644f91e7a1fb37a760b, type: 3}
   settings: {fileID: 11400000, guid: eefc0740e7a2a134aada536c3cde897f, type: 2}
   spawnPoints:
   - {fileID: 1994205942}
