@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e75209a5b744421b129ebd6758d5127, type: 3}
   m_Name: RightArmData
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: f9ce40fbfdf207d44b9851e41a252c9b, type: 2}
+  item: {fileID: 11400000, guid: 387cd1c054e3a1e4b86d5aa7b3983d60, type: 2}

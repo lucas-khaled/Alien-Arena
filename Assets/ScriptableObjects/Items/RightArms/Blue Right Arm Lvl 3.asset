@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1410e976312b49dda11fba2cb1bea654, type: 3}
+  m_Script: {fileID: 11500000, guid: 0de63e6a34df4348992097e03a551ec2, type: 3}
   m_Name: Blue Right Arm Lvl 3
   m_EditorClassIdentifier: 
-  sprite: {fileID: -3362597979101109925, guid: 9670c6528cac2f44ca6945bba24cd028, type: 3}
+  sprite: {fileID: 4607213987148507816, guid: 9670c6528cac2f44ca6945bba24cd028, type: 3}
   material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   price: 100
   life: 16

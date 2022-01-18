@@ -43,7 +43,7 @@ TextureImporter:
     second: CharBlue3_LeftArm
   - first:
       213: 8382918622064019638
-    second: Soldiers_13
+    second: CharBlue3_Torso
   - first:
       213: -3362597979101109925
     second: CharBlue3_RightArm
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldiers_13
+      name: CharBlue3_Torso
       rect:
         serializedVersion: 2
         x: 1327

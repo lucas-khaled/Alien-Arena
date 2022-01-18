@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e902fdbd96a74052a9c92cdff8b25d9f, type: 3}
   m_Name: Green Torso Lvl 3
   m_EditorClassIdentifier: 
-  sprite: {fileID: -1465848253627652563, guid: 9670c6528cac2f44ca6945bba24cd028, type: 3}
+  sprite: {fileID: -2278750311657467002, guid: 9670c6528cac2f44ca6945bba24cd028, type: 3}
   material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   price: 250
   life: 70
