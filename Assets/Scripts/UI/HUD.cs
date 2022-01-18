@@ -36,12 +36,11 @@ namespace AlienArena.UI
             instance = this;
         }
 
-        private void Start()
+        private void OnEnable()
         {
             player = Player.Player.instance;
             player.onChangeAtrribute += OnPlayerAttributeChange;
         }
-
         private void OnPlayerAttributeChange(float value, string name)
         {
             switch (name)

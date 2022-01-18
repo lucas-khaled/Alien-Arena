@@ -17,13 +17,26 @@ namespace AlienArena.Player
 
         private void Awake()
         {
-            PlayerStats.Init();
             instance = this;
         }
 
         private void Start()
         {
             InventoryController.instance.onEquip += ChangeEquipStats;
+            InitStats();
+        }
+        
+        public void InitStats()
+        {
+            stats.AddedMaxLife = 0;
+            stats.AddedMaxEnergy = 0;
+            stats.AddedVelocity = 0;
+
+            stats.energy = stats.BaseMaxEnergy;
+            stats.life = stats.BaseMaxLife;
+            
+            onChangeAtrribute?.Invoke(stats.energy, "Energy");
+            onChangeAtrribute?.Invoke(stats.life, "Life");
         }
 
         public void UseEnergy(float usage)

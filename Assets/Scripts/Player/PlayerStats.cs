@@ -21,14 +21,7 @@ namespace AlienArena.Player
         public float MaxEnergy => baseMaxEnergy + AddedMaxEnergy;
         public float Velocity => baseVelocity + AddedVelocity;
 
-        public void Init()
-        {
-            AddedMaxLife = 0;
-            AddedMaxEnergy = 0;
-            AddedVelocity = 0;
-
-            energy = baseMaxEnergy;
-            life = baseMaxLife;
-        }
+        public float BaseMaxEnergy => baseMaxEnergy;
+        public float BaseMaxLife => baseMaxLife;
     }
 }
