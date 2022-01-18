@@ -12,10 +12,12 @@ namespace AlienArena.Enemies
         [SerializeField] private float damage = 10;
 
         private Player.Player _player;
+        private Animator _animator;
         private float attackTime;
         private void Start()
         {
             _player = Player.Player.instance;
+            _animator = GetComponent<Animator>();
         }
 
         private void Update()
@@ -35,6 +37,9 @@ namespace AlienArena.Enemies
         {
             _player.Damage(damage);
             attackTime = 0;
+            
+            if(_animator != null)
+                _animator.SetTrigger("Attack");
         }
 
         private void OnDrawGizmos()
