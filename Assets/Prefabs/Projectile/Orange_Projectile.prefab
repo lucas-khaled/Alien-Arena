@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3282648251687849576}
   - component: {fileID: 3486463145240888686}
   - component: {fileID: 8211580082725774647}
+  - component: {fileID: 5537862585988851356}
   m_Layer: 0
   m_Name: Orange_Projectile
   m_TagString: Untagged
@@ -85,6 +86,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectOnHit: {fileID: 0}
   speed: 20
+--- !u!210 &5537862585988851356
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3299506874305064469}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
 --- !u!1 &3511567655566760154
 GameObject:
   m_ObjectHideFlags: 0

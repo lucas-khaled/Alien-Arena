@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4869263921297298201}
   - component: {fileID: 6809215379403397151}
   - component: {fileID: 2299142695637923910}
+  - component: {fileID: 7119821051550555901}
   m_Layer: 0
   m_Name: Purple_Projectile
   m_TagString: Untagged
@@ -85,6 +86,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectOnHit: {fileID: 0}
   speed: 20
+--- !u!210 &7119821051550555901
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4888484260917146468}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
 --- !u!1 &6820365875580405163
 GameObject:
   m_ObjectHideFlags: 0
