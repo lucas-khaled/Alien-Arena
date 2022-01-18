@@ -8,6 +8,7 @@ namespace AlienArena.Player
     public class PlayerShooter : MonoBehaviour
     {
         [SerializeField] private Transform fireTransform;
+        [SerializeField] private float energyUsage = 5;
 
         private Equipper _equipper;
         private float _fireTime = 0;
@@ -28,6 +29,8 @@ namespace AlienArena.Player
 
         private void Shoot()
         {
+            if(Player.instance.PlayerStats.energy <= 0) return;
+            
             Weapon weapon = _equipper.GetSlotByType(typeof(Weapon)).data.item as Weapon;
             if(weapon == null) return;
             
@@ -36,6 +39,7 @@ namespace AlienArena.Player
             if (weapon.bullets <= 1)
             {
                 InstantiateBullet(weapon, fireTransform.position);
+                Player.instance.UseEnergy(energyUsage);
                 return;
             }
 

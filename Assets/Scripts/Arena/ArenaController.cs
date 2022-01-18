@@ -82,16 +82,16 @@ namespace AlienArena.Arena
 
         private Enemy GetRandomEnemyInDataList(int index = -1, int iteractions = 0)
         {
-            index = (index <= -1) ? Random.Range(0, _enemyData.Length) : 0;
-            Debug.Log(index);
+            int realIndex = (index <= -1) ? Random.Range(0, _enemyData.Length) : index;
+            Debug.Log("Real: "+realIndex+" --- Index: "+index+" --- Iteractions: "+iteractions);
 
-            if (iteractions >= _enemyData.Length)  return null;
+            if (iteractions > _enemyData.Length)  return null;
 
-            if (_enemyData[index].quantity <= 0)
-                return GetRandomEnemyInDataList(index, ++iteractions);
+            if (_enemyData[realIndex].quantity <= 0)
+                return GetRandomEnemyInDataList(++index, ++iteractions);
             
-            _enemyData[index].quantity--;
-            return _enemyData[index].enemy;
+            _enemyData[realIndex].quantity--;
+            return _enemyData[realIndex].enemy;
             
         }
     }
